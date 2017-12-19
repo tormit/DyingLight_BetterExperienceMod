@@ -410,7 +410,7 @@
     <prop n="RangeMeleeMul" v="1.0"/> 
     <prop n="MaxVerticalAngleForRangeMeleeCorrection" v="25.0"/>    
     
-    <prop n="WeightCanCarry" v="100.0"/>
+    <prop n="WeightCanCarry" v="150.0"/>
 
     <prop n="MaxAmmoPistol" v="50"/>
     <prop n="MaxAmmoRifle" v="120"/>
@@ -607,7 +607,7 @@
 	<prop n="RunnerXPClimbFromBottom" v="15.0"/>
 	<prop n="RunnerXPClimbFromTop" v="5.0"/>
 	<prop n="RunnerXPJumpOn" v="10.0"/>
-	<prop n="RunnerXPFactor" v="1.0"/>	
+	<prop n="RunnerXPFactor" v="2.0"/>	
 	
     <prop n="RunnerXPSkillSlide" v="20.0"/>    
     <prop n="RunnerXPSkillTackle" v="20.0"/>
@@ -624,10 +624,10 @@
 	<prop n="RunnerXPDodgedAttack" v="20.0"/>
 	<prop n="RunnerXPSkillWrestleKick" v="20.0"/>
 	
-	<prop n="RunnerXPNightFactor" v="2.0"/>	
-	<prop n="FighterXPNightFactor" v="2.0"/>	
-	<prop n="SurvivorXPNightFactor" v="1.0"/>
-	<prop n="DriverXpNightFactor" v="2.0"/>
+	<prop n="RunnerXPNightFactor" v="4.0"/>	
+	<prop n="FighterXPNightFactor" v="4.0"/>	
+	<prop n="SurvivorXPNightFactor" v="4.0"/>
+	<prop n="DriverXpNightFactor" v="4.0"/>
 	
     <prop n="FighterXPSkillCharge" v="10.0"/>
     <prop n="FighterXPSkillWhirlwind" v="20.0"/>
@@ -647,7 +647,7 @@
 	<prop n="ConfusionProbabilityKick" v="0"/>
 	<prop n="LookBackEnabled" v="1"/>
 	<prop n="SonarHighlightRange" v="8.5"/>
-	<prop n="SonarHighlightDuration" v="5.0"/>
+	<prop n="SonarHighlightDuration" v="55.0"/>
 	
 	<prop n="CraftDismantleEnabled" v="1"/>
 	<prop n="CraftDismantleCraftPartRecoverProb" v="0.75"/>
