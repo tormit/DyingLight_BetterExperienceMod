@@ -23,7 +23,7 @@
 	<prop n="WQ_Rot_Duration" v="25.0"/>
     <prop n="MaxCarUpgradeQuality" v="-1.0"/>
     <prop n="CarLuckyRepairChance" v="0.0"/>
-    <prop n="XpForCrowdKill" v="10.0"/>
+    <prop n="XpForCrowdKill" v="25.0"/>
 
 	<prop n="HitReactionSpeechProb" v="0.5"/>
 	<prop n="PursuitBreakerBlastDamage" v="1000"/>
@@ -36,10 +36,10 @@
     <prop n="DeathPenaltyOnFallMul" v="0.2"/>
     <prop n="DeathPenaltyInChallengeMul" v="0"/>
 			
-	<prop n="NightExpActionsReward" v="1.0"/>
-	<prop n="NightExpLootedReward" v="5.0"/>
-	<prop n="NightExpUnspotedReward" v="1.7"/>	
-	<prop n="NightExpKillReward" v="20"/>
+	<prop n="NightExpActionsReward" v="1.25"/>
+	<prop n="NightExpLootedReward" v="6.0"/>
+	<prop n="NightExpUnspotedReward" v="2.0"/>	
+	<prop n="NightExpKillReward" v="50"/>
 	<prop n="NightExpPbActivatedReward" v="50.0"/>	
 	<prop n="RopePullBackStaminaUsageFactor" v="0.0"/>
     
@@ -267,7 +267,7 @@
     <prop n="LowHealthEffectThreshold" v="1.0"/>                <!-- Defines the value of health when critical health post process is working, based on HealthCriticalLevel -->
     <prop n="HealthRegenerationDelay" v="4.0"/>                 <!-- Time after which player starts to regenerate, measured from last hit -->
     <prop n="HealthRegenerationTimeToMax" v="8.0"/>             <!-- Time needed to regenerate health up to HealthRegenerationMaxLevel -->
-    <prop n="HealthPerSecond" v="0"/>                           <!-- Amount of health being regenerated each second, to be used as auto heal skill -->
+    <prop n="HealthPerSecond" v="10"/>                           <!-- Amount of health being regenerated each second, to be used as auto heal skill -->
     
     <prop n="AfterDeathHealthRegenTime" v="240"/>               <!-- Time it takes to regenerate full health after respawn -->
     <prop n="AfterDeathHealthFactor" v="1.0"/>                 <!-- Part of MaxHealth restored after respawn -->
@@ -285,7 +285,7 @@
     
     <prop n="BluntDamageMul" v="0"/>
     <prop n="BluntForceMul" v="0"/>
-    <prop n="BluntWpnDurabilityLoss" v="1.0"/>
+    <prop n="BluntWpnDurabilityLoss" v="0.0"/>
     <prop n="BluntCriticalChance" v="0"/>
     <prop n="BluntCriticalDmgMul" v="0"/>
     <prop n="BluntCritSevereLimbProb" v="0.2"/>
@@ -293,7 +293,7 @@
     
     <prop n="CutDamageMul" v="0"/>
     <prop n="CutForceMul" v="0"/>
-    <prop n="CutWpnDurabilityLoss" v="1.0"/>
+    <prop n="CutWpnDurabilityLoss" v="0.0"/>
     <prop n="CutCriticalChance" v="0"/>
     <prop n="CutCriticalDmgMul" v="0"/>
     <prop n="CutCritSevereLimbProb" v="0.2"/>
@@ -355,7 +355,7 @@
     <prop n="ChargeStaminaDecreaseFactor" v="0"/>
     <prop n="ChargeAutoReleaseTime" v="-1.0"/>  
 	<prop n="ChargeHoldDuration" v="0.5"/>  	
-    <prop n="ChargeWeaponDurabilityMul" v="2.0"/>   
+    <prop n="ChargeWeaponDurabilityMul" v="0.0"/>   
     
 
     <!-- Stick -->
@@ -414,7 +414,7 @@
 
     <prop n="MaxAmmoPistol" v="50"/>
     <prop n="MaxAmmoRifle" v="120"/>
-    <prop n="MaxAmmoShotgun" v="20"/>
+    <prop n="MaxAmmoShotgun" v="30"/>
         
     <prop n="FirearmsPistolReloadTimeMul" v="1.0"/> 
     <prop n="FirearmsRevolverReloadTimeMul" v="1.0"/>   
@@ -600,42 +600,42 @@
 	<prop n="DriverXPPursuitLvl3PerSec" v="4.00"/>
 	<prop n="DriverXPPursuitLvl4PerSec" v="5.00"/>
 	
-	<prop n="RunnerXPRunningPerSec" v="0.0"/>	
-    <prop n="RunnerXPClimbShimmyUp" v="5.0"/>
-	<prop n="RunnerXPClimbEdgeGrab" v="25.0"/>
-	<prop n="RunnerXPClimbJump180" v="10.0"/>
-	<prop n="RunnerXPClimbFromBottom" v="15.0"/>
-	<prop n="RunnerXPClimbFromTop" v="5.0"/>
-	<prop n="RunnerXPJumpOn" v="10.0"/>
-	<prop n="RunnerXPFactor" v="2.0"/>	
+	<prop n="RunnerXPRunningPerSec" v="0.1"/>	
+    <prop n="RunnerXPClimbShimmyUp" v="25.0"/>
+	<prop n="RunnerXPClimbEdgeGrab" v="100.0"/>
+	<prop n="RunnerXPClimbJump180" v="50.0"/>
+	<prop n="RunnerXPClimbFromBottom" v="70.0"/>
+	<prop n="RunnerXPClimbFromTop" v="35.0"/>
+	<prop n="RunnerXPJumpOn" v="50.0"/>
+	<prop n="RunnerXPFactor" v="1.0"/>	
 	
-    <prop n="RunnerXPSkillSlide" v="20.0"/>    
-    <prop n="RunnerXPSkillTackle" v="20.0"/>
-    <prop n="RunnerXPSkillLanding" v="20.0"/>
-    <prop n="RunnerXPSkillJumpOverZombie" v="20.0"/>
-    <prop n="RunnerXPSkillWallJump" v="20.0"/>
-    <prop n="RunnerXPSkillGHook" v="5.0"/>
+    <prop n="RunnerXPSkillSlide" v="100.0"/>    
+    <prop n="RunnerXPSkillTackle" v="100.0"/>
+    <prop n="RunnerXPSkillLanding" v="100.0"/>
+    <prop n="RunnerXPSkillJumpOverZombie" v="100.0"/>
+    <prop n="RunnerXPSkillWallJump" v="100.0"/>
+    <prop n="RunnerXPSkillGHook" v="25.0"/>
     <prop n="RunnerXPFactorOnCriticalFitness" v="0.5"/>
-	<prop n="RunnerXPEnviramentalKill" v="50.0"/>
-	<prop n="RunnerXPAttackFromAirHit" v="10.0"/>
-	<prop n="RunnerXPAttackFromAirHitLow" v="5.0"/>
-	<prop n="RunnerXPSkillNageWaza" v="20.0"/>
-	<prop n="RunnerXPSkillFastBreak" v="20.0"/>
-	<prop n="RunnerXPDodgedAttack" v="20.0"/>
-	<prop n="RunnerXPSkillWrestleKick" v="20.0"/>
+	<prop n="RunnerXPEnviramentalKill" v="250.0"/>
+	<prop n="RunnerXPAttackFromAirHit" v="50.0"/>
+	<prop n="RunnerXPAttackFromAirHitLow" v="50.0"/>
+	<prop n="RunnerXPSkillNageWaza" v="100.0"/>
+	<prop n="RunnerXPSkillFastBreak" v="100.0"/>
+	<prop n="RunnerXPDodgedAttack" v="100.0"/>
+	<prop n="RunnerXPSkillWrestleKick" v="100.0"/>
 	
-	<prop n="RunnerXPNightFactor" v="4.0"/>	
-	<prop n="FighterXPNightFactor" v="4.0"/>	
-	<prop n="SurvivorXPNightFactor" v="4.0"/>
-	<prop n="DriverXpNightFactor" v="4.0"/>
+	<prop n="RunnerXPNightFactor" v="3.0"/>	
+	<prop n="FighterXPNightFactor" v="3.0"/>	
+	<prop n="SurvivorXPNightFactor" v="3.0"/>
+	<prop n="DriverXpNightFactor" v="3.0"/>
 	
-    <prop n="FighterXPSkillCharge" v="10.0"/>
-    <prop n="FighterXPSkillWhirlwind" v="20.0"/>
-    <prop n="FighterXPSkillGroundPound" v="20.0"/>        
-    <prop n="FighterXPSkillBackKill" v="20.0"/>
-    <prop n="FighterXPSkillJumpAttack" v="25.0"/>
-    <prop n="FighterXPSkillFootballKick" v="20.0"/>
-    <prop n="FighterXPSkillFronKill" v="20.0"/>	
+    <prop n="FighterXPSkillCharge" v="55.0"/>
+    <prop n="FighterXPSkillWhirlwind" v="150.0"/>
+    <prop n="FighterXPSkillGroundPound" v="100.0"/>        
+    <prop n="FighterXPSkillBackKill" v="100.0"/>
+    <prop n="FighterXPSkillJumpAttack" v="125.0"/>
+    <prop n="FighterXPSkillFootballKick" v="125.0"/>
+    <prop n="FighterXPSkillFronKill" v="100.0"/>	
 	<prop n="FighterXPFirearmDamageFactor" v="0.1"/>
 	
     <prop n="LimbCutOforDestrXP" v="0.0"/>
