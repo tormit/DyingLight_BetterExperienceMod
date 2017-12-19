@@ -9050,9 +9050,9 @@ sub main()
         LightFullIntensity(3.5);
         LightDimIntensity(1.9);
         LowBatteryLevel(0.25);
-        DepletionTime(10.0);
-        RegenerationTime(7.0);
-        EnergyConsumeOnStart(0.015);
+        DepletionTime(40.0);
+        RegenerationTime(4.0);
+        EnergyConsumeOnStart(0.005);
         FullLightAngle(30.0);
         DimLightAngle(30.0);
         FullLightRange(30.0);
@@ -9065,9 +9065,9 @@ sub main()
         EquipmentSlot(0);
         CanWorkWhenFullyDrained(false);
         CanRegenerate(true);
-        RegenerationDelay(3.0);
-        RegenTimeFullyDrained(12.0);
-        RegenDelayFullyDrained(3.0);
+        RegenerationDelay(2.0);
+        RegenTimeFullyDrained(10.0);
+        RegenDelayFullyDrained(0.0);
         MinChargeOnFullyDrained(1.0);
     }
 
