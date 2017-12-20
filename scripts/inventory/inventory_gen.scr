@@ -63,7 +63,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_knife_c");
         RestrictionFlags(0);
@@ -152,7 +152,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_knife_b");
         RestrictionFlags(0);
@@ -241,7 +241,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_knife_e");
         RestrictionFlags(0);
@@ -330,7 +330,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_knife_a");
         RestrictionFlags(0);
@@ -419,7 +419,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_knife_d");
         RestrictionFlags(0);
@@ -509,7 +509,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("cleaver_a");
         RestrictionFlags(0);
@@ -601,7 +601,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("cleaver_d");
         RestrictionFlags(0);
@@ -693,7 +693,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("cleaver_b");
         RestrictionFlags(0);
@@ -785,7 +785,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("cleaver_c");
         RestrictionFlags(0);
@@ -877,7 +877,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("cleaver_e");
         RestrictionFlags(0);
@@ -970,7 +970,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("cleaver_c");
         RestrictionFlags(0);
@@ -1062,7 +1062,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("cleaver_c");
         RestrictionFlags(0);
@@ -1133,7 +1133,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_e");
         RestrictionFlags(0);
@@ -1225,7 +1225,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_c");
         RestrictionFlags(0);
@@ -1317,7 +1317,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_a");
         RestrictionFlags(0);
@@ -1409,7 +1409,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_b");
         RestrictionFlags(0);
@@ -1501,7 +1501,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_d");
         RestrictionFlags(0);
@@ -1594,7 +1594,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_a");
         RestrictionFlags(0);
@@ -1686,7 +1686,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("reed_knife_a");
         RestrictionFlags(0);
@@ -1778,7 +1778,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("reed_knife_b");
         RestrictionFlags(0);
@@ -1870,7 +1870,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("reed_knife_c");
         RestrictionFlags(0);
@@ -1963,7 +1963,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_a");
         RestrictionFlags(0);
@@ -2056,7 +2056,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_b");
         RestrictionFlags(0);
@@ -2149,7 +2149,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_c");
         RestrictionFlags(0);
@@ -2242,7 +2242,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_d");
         RestrictionFlags(0);
@@ -2335,7 +2335,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_e");
         RestrictionFlags(0);
@@ -2429,7 +2429,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_b");
         RestrictionFlags(0);
@@ -2523,7 +2523,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_e");
         RestrictionFlags(0);
@@ -2617,7 +2617,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_a");
         RestrictionFlags(0);
@@ -2711,7 +2711,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_a");
         RestrictionFlags(0);
@@ -2802,7 +2802,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_a");
         RestrictionFlags(0);
@@ -2891,7 +2891,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_b");
         RestrictionFlags(0);
@@ -2980,7 +2980,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_c");
         RestrictionFlags(0);
@@ -3069,7 +3069,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_d");
         RestrictionFlags(0);
@@ -3158,7 +3158,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_e");
         RestrictionFlags(0);
@@ -3246,7 +3246,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_d");
         RestrictionFlags(0);
@@ -3317,7 +3317,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("hammer_a");
         RestrictionFlags(0);
@@ -3409,7 +3409,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("hammer_b");
         RestrictionFlags(0);
@@ -3501,7 +3501,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("hammer_c");
         RestrictionFlags(0);
@@ -3593,7 +3593,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("hammer_d");
         RestrictionFlags(0);
@@ -3685,7 +3685,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("hammer_e");
         RestrictionFlags(0);
@@ -3777,7 +3777,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("hammer_c");
         RestrictionFlags(0);
@@ -3848,7 +3848,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baton_a");
         RestrictionFlags(0);
@@ -3940,7 +3940,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_a");
         RestrictionFlags(0);
@@ -4032,7 +4032,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_b");
         RestrictionFlags(0);
@@ -4125,7 +4125,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_b");
         RestrictionFlags(0);
@@ -4217,7 +4217,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_d");
         RestrictionFlags(0);
@@ -4310,7 +4310,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_d");
         RestrictionFlags(0);
@@ -4402,7 +4402,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_c");
         RestrictionFlags(0);
@@ -4495,7 +4495,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_c");
         RestrictionFlags(0);
@@ -4587,7 +4587,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_e");
         RestrictionFlags(0);
@@ -4680,7 +4680,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_e");
         RestrictionFlags(0);
@@ -4772,7 +4772,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_a");
         RestrictionFlags(0);
@@ -4843,7 +4843,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("crowbar_a");
         RestrictionFlags(0);
@@ -4934,7 +4934,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("crowbar_a");
         RestrictionFlags(0);
@@ -5025,7 +5025,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("crowbar_a");
         RestrictionFlags(0);
@@ -5115,7 +5115,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("crowbar_a");
         RestrictionFlags(0);
@@ -5186,7 +5186,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -5278,7 +5278,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_d");
         RestrictionFlags(0);
@@ -5371,7 +5371,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_d");
         RestrictionFlags(0);
@@ -5463,7 +5463,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -5556,7 +5556,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_e");
         RestrictionFlags(0);
@@ -5648,7 +5648,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_e");
         RestrictionFlags(0);
@@ -5741,7 +5741,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -5834,7 +5834,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -5926,7 +5926,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -5997,7 +5997,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_e");
         RestrictionFlags(0);
@@ -6068,7 +6068,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_b");
         RestrictionFlags(0);
@@ -6161,7 +6161,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_b");
         RestrictionFlags(0);
@@ -6254,7 +6254,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_b");
         RestrictionFlags(0);
@@ -6347,7 +6347,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_b");
         RestrictionFlags(0);
@@ -6440,7 +6440,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -6533,7 +6533,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -6625,7 +6625,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_a");
         RestrictionFlags(0);
@@ -6717,7 +6717,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_b");
         RestrictionFlags(0);
@@ -6810,7 +6810,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_b");
         RestrictionFlags(0);
@@ -6902,7 +6902,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_c");
         RestrictionFlags(0);
@@ -6995,7 +6995,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_a");
         RestrictionFlags(0);
@@ -7088,7 +7088,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_c");
         RestrictionFlags(0);
@@ -7178,7 +7178,7 @@ sub main()
         Color(Color_White);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_c");
         RestrictionFlags(0);
@@ -7691,7 +7691,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_b");
         RestrictionFlags(0);
@@ -7784,7 +7784,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_c");
         RestrictionFlags(0);
@@ -7876,7 +7876,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_a");
         RestrictionFlags(0);
@@ -7970,7 +7970,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_b");
         RestrictionFlags(0);
@@ -8064,7 +8064,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_c");
         RestrictionFlags(0);
@@ -8158,7 +8158,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_c");
         RestrictionFlags(0);
@@ -8252,7 +8252,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_c");
         RestrictionFlags(0);
@@ -8346,7 +8346,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_c");
         RestrictionFlags(0);
@@ -8439,7 +8439,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_a");
         RestrictionFlags(0);
@@ -8532,7 +8532,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_b");
         RestrictionFlags(0);
@@ -8604,7 +8604,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_c");
         RestrictionFlags(0);
@@ -8675,7 +8675,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_a");
         RestrictionFlags(0);
@@ -11432,7 +11432,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BigHammer);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("axe_big_b");
         RestrictionFlags(0);
@@ -11502,7 +11502,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BigHammer);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("axe_big_c");
         RestrictionFlags(0);
@@ -11573,7 +11573,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pipe_a");
         RestrictionFlags(0);
@@ -11662,7 +11662,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pipe_b");
         RestrictionFlags(0);
@@ -11751,7 +11751,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pipe_c");
         RestrictionFlags(0);
@@ -11840,7 +11840,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("wrench_a");
         RestrictionFlags(0);
@@ -11929,7 +11929,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("wrench_b");
         RestrictionFlags(0);
@@ -12018,7 +12018,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("wrench_c");
         RestrictionFlags(0);
@@ -12107,7 +12107,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("military_sovel_a");
         RestrictionFlags(0);
@@ -12197,7 +12197,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_Nails");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("StickBlunt");
@@ -12289,7 +12289,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_Nails");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(5);
         CraftingSlots(1,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("StickBlunt");
@@ -12381,7 +12381,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_Nails");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(5);
         CraftingSlots(1,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("StickBlunt");
@@ -12473,7 +12473,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_Nails");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(5);
         CraftingSlots(1,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("StickBlunt");
@@ -12565,7 +12565,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_Nails");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(3);
         CraftingSlots(1,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("StickBlunt");
@@ -12657,7 +12657,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pipe_a");
         RestrictionFlags(0);
@@ -12750,7 +12750,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pipe_a");
         RestrictionFlags(0);
@@ -12843,7 +12843,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pipe_b");
         RestrictionFlags(0);
@@ -12936,7 +12936,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pipe_b");
         RestrictionFlags(0);
@@ -13029,7 +13029,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pipe_c");
         RestrictionFlags(0);
@@ -13121,7 +13121,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_Nails");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(2);
         CraftingSlots(1,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("Stick2HeavyBlunt");
@@ -13213,7 +13213,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_Nails");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(3);
         CraftingSlots(1,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("Stick2HeavyBlunt");
@@ -13306,7 +13306,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("wrench_a");
         RestrictionFlags(0);
@@ -13399,7 +13399,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("wrench_a");
         RestrictionFlags(0);
@@ -13492,7 +13492,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("wrench_b");
         RestrictionFlags(0);
@@ -13585,7 +13585,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("wrench_c");
         RestrictionFlags(0);
@@ -13678,7 +13678,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("wrench_c");
         RestrictionFlags(0);
@@ -13770,7 +13770,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("Stick2HeavyBlunt");
@@ -13862,7 +13862,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("Stick2HeavyBlunt");
@@ -13954,7 +13954,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("Stick2HeavyBlunt");
@@ -14043,7 +14043,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BigHammer);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("Stick2HeavyBlunt");
@@ -14136,7 +14136,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_Nails");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(0,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("Stick2HeavyBlunt");
@@ -14229,7 +14229,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_Nails");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(0,0);
         RestrictionFlags(0);
         RagdollBehaviorPrefix("Stick2HeavyBlunt");
@@ -14301,7 +14301,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -14393,7 +14393,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pipe_a");
         RestrictionFlags(0);
@@ -14487,7 +14487,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_b");
         RestrictionFlags(0);
@@ -14580,7 +14580,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("reed_knife_a");
         RestrictionFlags(0);
@@ -14672,7 +14672,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -14857,7 +14857,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_b");
         RestrictionFlags(0);
@@ -14948,7 +14948,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_c");
         RestrictionFlags(0);
@@ -15131,7 +15131,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_a");
         RestrictionFlags(0);
@@ -15224,7 +15224,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_a");
         RestrictionFlags(0);
@@ -15317,7 +15317,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_a");
         RestrictionFlags(0);
@@ -15500,7 +15500,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_c");
         RestrictionFlags(0);
@@ -15590,7 +15590,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_d");
         RestrictionFlags(0);
@@ -15681,7 +15681,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_a");
         RestrictionFlags(0);
@@ -15864,7 +15864,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_c");
         RestrictionFlags(0);
@@ -15955,7 +15955,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_c");
         RestrictionFlags(0);
@@ -16048,7 +16048,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_e");
         RestrictionFlags(0);
@@ -16141,7 +16141,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_e");
         RestrictionFlags(0);
@@ -16234,7 +16234,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_d");
         RestrictionFlags(0);
@@ -16419,7 +16419,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_a");
         RestrictionFlags(0);
@@ -16512,7 +16512,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_b");
         RestrictionFlags(0);
@@ -16605,7 +16605,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_a");
         RestrictionFlags(0);
@@ -16698,7 +16698,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_d");
         RestrictionFlags(0);
@@ -16791,7 +16791,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -16885,7 +16885,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_c");
         RestrictionFlags(0);
@@ -16979,7 +16979,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_c");
         RestrictionFlags(0);
@@ -17073,7 +17073,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_e");
         RestrictionFlags(0);
@@ -17167,7 +17167,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_b");
         RestrictionFlags(0);
@@ -17532,7 +17532,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_c");
         RestrictionFlags(0);
@@ -17716,7 +17716,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_b");
         RestrictionFlags(0);
@@ -17898,7 +17898,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_a");
         RestrictionFlags(0);
@@ -17989,7 +17989,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_c");
         RestrictionFlags(0);
@@ -18079,7 +18079,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_b");
         RestrictionFlags(0);
@@ -18172,7 +18172,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_c");
         RestrictionFlags(0);
@@ -18264,7 +18264,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_d");
         RestrictionFlags(0);
@@ -18356,7 +18356,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_e");
         RestrictionFlags(0);
@@ -18631,7 +18631,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("hammer_b");
         RestrictionFlags(0);
@@ -18723,7 +18723,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("reed_knife_b");
         RestrictionFlags(0);
@@ -18903,7 +18903,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_a");
         RestrictionFlags(0);
@@ -19085,7 +19085,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("hammer_e");
         RestrictionFlags(0);
@@ -19177,7 +19177,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("reed_knife_c");
         RestrictionFlags(0);
@@ -19269,7 +19269,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baton_a");
         RestrictionFlags(0);
@@ -19453,7 +19453,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_e");
         RestrictionFlags(0);
@@ -19638,7 +19638,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_c");
         RestrictionFlags(0);
@@ -19731,7 +19731,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_b");
         RestrictionFlags(0);
@@ -19917,7 +19917,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_b");
         RestrictionFlags(0);
@@ -20011,7 +20011,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_b");
         RestrictionFlags(0);
@@ -20105,7 +20105,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_c");
         RestrictionFlags(0);
@@ -20197,7 +20197,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_b");
         RestrictionFlags(0);
@@ -20381,7 +20381,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_BaseballBat);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("baseballbat_b");
         RestrictionFlags(0);
@@ -22003,7 +22003,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -22099,7 +22099,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -22195,7 +22195,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -22291,7 +22291,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -22387,7 +22387,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -22483,7 +22483,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -22579,7 +22579,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -22675,7 +22675,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -22771,7 +22771,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -22867,7 +22867,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -22963,7 +22963,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -23059,7 +23059,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -23155,7 +23155,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -23251,7 +23251,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_c");
         RestrictionFlags(0);
@@ -23346,7 +23346,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_b");
         RestrictionFlags(0);
@@ -23441,7 +23441,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_b");
         RestrictionFlags(0);
@@ -23536,7 +23536,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_c");
         RestrictionFlags(0);
@@ -23631,7 +23631,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_c");
         RestrictionFlags(0);
@@ -23916,7 +23916,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_sword_a");
         RestrictionFlags(0);
@@ -24487,7 +24487,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -24583,7 +24583,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -24679,7 +24679,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -24775,7 +24775,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -24871,7 +24871,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -24967,7 +24967,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_a");
         RestrictionFlags(0);
@@ -25063,7 +25063,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_a");
         RestrictionFlags(0);
@@ -25159,7 +25159,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_a");
         RestrictionFlags(0);
@@ -25255,7 +25255,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_a");
         RestrictionFlags(0);
@@ -25351,7 +25351,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("sickle_a");
         RestrictionFlags(0);
@@ -25446,7 +25446,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_b");
         RestrictionFlags(0);
@@ -25539,7 +25539,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_b");
         RestrictionFlags(0);
@@ -25632,7 +25632,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_b");
         RestrictionFlags(0);
@@ -25725,7 +25725,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_b");
         RestrictionFlags(0);
@@ -25818,7 +25818,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("knife_b");
         RestrictionFlags(0);
@@ -26383,7 +26383,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_e");
         RestrictionFlags(0);
@@ -26480,7 +26480,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_e");
         RestrictionFlags(0);
@@ -26577,7 +26577,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_e");
         RestrictionFlags(0);
@@ -26674,7 +26674,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_e");
         RestrictionFlags(0);
@@ -26771,7 +26771,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_e");
         RestrictionFlags(0);
@@ -26868,7 +26868,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_e");
         RestrictionFlags(0);
@@ -26965,7 +26965,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Axe);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("short_axe_e");
         RestrictionFlags(0);
@@ -27061,7 +27061,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_e");
         RestrictionFlags(0);
@@ -27157,7 +27157,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_e");
         RestrictionFlags(0);
@@ -27253,7 +27253,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_e");
         RestrictionFlags(0);
@@ -27349,7 +27349,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_e");
         RestrictionFlags(0);
@@ -27445,7 +27445,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("pick_e");
         RestrictionFlags(0);
@@ -27542,7 +27542,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);
@@ -27641,7 +27641,7 @@ sub main()
         GenLevelMax(1);
         AchType(AchType_Machete);
         DismantleResultItem("Craft_MetalScrap");
-        DismantleResultItemCnt(1);
+        DismantleResultItemCnt(4);
         CraftingSlots(1,0);
         UniqueFxNameBase("machete_a");
         RestrictionFlags(0);

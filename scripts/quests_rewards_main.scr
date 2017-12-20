@@ -50,12 +50,12 @@ sub main()
 
     Reward("StorylineReward_Airdrop_reward")
     {
-        Xp(5000);
+        Xp(7500);
     }
 
     Reward("StorylineReward_Airdrop_LittleGirl_reward")
     {
-        Xp(1000);
+        Xp(1500);
     }
 
     Reward("StorylineReward_PactWithRais_reward")
@@ -179,24 +179,24 @@ sub main()
 
     Reward("BringDawud_reward")
     {
-        Xp(3500);
+        Xp(6500);
     }
 
     Reward("GoodNightBahir_reward")
     {
-        Xp(3500);
+        Xp(6500);
     }
 
     Reward("MothersDay_reward")
     {
-        Xp(3500);
+        Xp(6000);
         Item("Craft_Upgrade_DamDurBal", Color_Blue, 1, 0);
-        Cash(500);
+        Cash(1000);
     }
 
     Reward("VoltageEXP_reward")
     {
-        Xp(4500);
+        Xp(5500);
     }
 
     Reward("VoltageCraftplan_reward")
@@ -206,152 +206,152 @@ sub main()
 
     Reward("Voltage_reward")
     {
-        Xp(4500);
+        Xp(7500);
         Item("Craftplan_ElectriCutter", Color_Violet, 1, 0);
     }
 
     Reward("LandMine_reward")
     {
-        Xp(4500);
+        Xp(7500);
         Item("Craftplan_KurtBomb", Color_Green, 1, 0);
     }
 
     Reward("Antibiotics_reward")
     {
-        Xp(5000);
-        Cash(1000);
+        Xp(7000);
+        Cash(2000);
     }
 
     Reward("ElectricMachete_reward")
     {
-        Xp(5000);
+        Xp(7000);
         Item("Craftplan_ZombieClassic", Color_White, 1, 0);
     }
 
     Reward("PerfectMurder_reward")
     {
-        Xp(5000);
+        Xp(7000);
         Item("Cash_Cash", Color_White, 1000, 0);
     }
 
     Reward("SpareGlasses_reward")
     {
-        Xp(3500);
+        Xp(6500);
         Item("Cash_Cash", Color_White, 1000, 0);
     }
 
     Reward("MedicalHerbs_reward")
     {
-        Xp(3500);
+        Xp(6500);
         Item("Cash_Cash", Color_White, 1000, 0);
     }
 
     Reward("Twins02_reward")
     {
-        Xp(1000);
+        Xp(2000);
     }
 
     Reward("BringGalib_reward")
     {
-        Xp(5000);
+        Xp(7000);
         Item("Cash_Cash", Color_White, 1000, 0);
     }
 
     Reward("WheresMyMother_reward")
     {
-        Xp(5000);
+        Xp(7000);
         Item("Cash_Cash", Color_White, 1000, 0);
     }
 
     Reward("GuideToZombieland_reward")
     {
-        Xp(5000);
+        Xp(7000);
         Item("Cash_Cash", Color_White, 2000, 0);
     }
 
     Reward("BringJeff_reward")
     {
-        Xp(5000);
+        Xp(7000);
     }
 
     Reward("BringMusa_reward")
     {
-        Xp(5000);
+        Xp(7000);
         Item("Craft_Upgrade_DamDurBal", Color_Green, 1, 0);
     }
 
     Reward("PoisonousHerbs_reward")
     {
-        Xp(2500);
+        Xp(4500);
         Item("Cash_Cash", Color_White, 1000, 0);
     }
 
     Reward("Searchlights_reward")
     {
-        Xp(5000);
+        Xp(7000);
     }
 
     Reward("Binoculars_reward")
     {
-        Xp(2500);
+        Xp(4500);
         Item("Cash_Cash", Color_White, 1000, 0);
     }
 
     Reward("MidnightBride_reward")
     {
-        Xp(2500);
+        Xp(4500);
         Item("Cash_Cash", Color_White, 1000, 0);
     }
 
     Reward("Firebug_reward")
     {
-        Xp(5000);
+        Xp(7000);
         Item("Craftplan_ZaidFlare", Color_Green, 1, 0);
     }
 
     Reward("Algae_reward")
     {
-        Xp(2500);
+        Xp(4500);
         Item("Cash_Cash", Color_White, 500, 0);
         Item("Craftplan_MedKit_Algae", Color_Green, 1, 0);
     }
 
     Reward("BabyIsBorn_reward")
     {
-        Xp(5000);
+        Xp(7000);
     }
 
     Reward("Dynamites_reward")
     {
-        Xp(5000);
+        Xp(7000);
         Item("Cash_Cash", Color_White, 1000, 0);
     }
 
     Reward("Twins03_reward")
     {
-        Xp(1000);
+        Xp(1500);
     }
 
     Reward("Twins04_reward")
     {
-        Xp(1000);
+        Xp(1500);
     }
 
     Reward("TalesFromTheCrypt_reward")
     {
-        Xp(7500);
+        Xp(8500);
         Item("Cash_Cash", Color_White, 1000, 0);
     }
 
     Reward("WitchQueen_reward")
     {
-        Xp(1500);
+        Xp(3500);
         Item("Craftplan_Cloak_Mushrooms", Color_White, 1, 0);
     }
 
     Reward("WitchQueen02_reward")
     {
-        Xp(1500);
+        Xp(3500);
         Item("Craftplan_Cloak_Goon", Color_White, 1, 0);
     }
 
@@ -828,27 +828,27 @@ sub main()
 
     Reward("Tunnel_01_Site_Safezone_reward")
     {
-        Xp(2000);
+        Xp(4000);
     }
 
     Reward("Bar_Site_Safezone_reward")
     {
-        Xp(2000);
+        Xp(4000);
     }
 
     Reward("Roof_Site_Safezone_reward")
     {
-        Xp(1000);
+        Xp(2000);
     }
 
     Reward("Interior_03_Safezone_reward")
     {
-        Xp(1000);
+        Xp(2000);
     }
 
     Reward("SafeZone_ElectricalSubstation_reward")
     {
-        Xp(1000);
+        Xp(1500);
     }
 
     Reward("blue_tower_Safezone_reward")
@@ -858,17 +858,17 @@ sub main()
 
     Reward("house_interior01_Safezone_reward")
     {
-        Xp(2000);
+        Xp(3000);
     }
 
     Reward("house_interior02_Safezone_reward")
     {
-        Xp(2000);
+        Xp(3000);
     }
 
     Reward("house_interior04_Safezone_reward")
     {
-        Xp(2000);
+        Xp(3000);
     }
 
     Reward("restaurant_Safezone_reward")

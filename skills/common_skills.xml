@@ -32,7 +32,7 @@
 	<skill id="Health1" cat="fighter" tier="1" max_level="1" desc_params="sturdiness;P" skill_points="1" skill_points_type="Fighter">
 		<level_req type="Fighter" value="4"/>
 		<skill_req id="StunAttacks"/>
-		<effect id="MaxHealth" change="x0.25"/>
+		<effect id="MaxHealth" change="x0.30"/>
 	</skill>	
 	
 	<skill id="ThrowableDamage" cat="fighter" tier="11" max_level="1" desc_params="blast;P;M:ThrowableDamage" skill_points="1" skill_points_type="Fighter">
@@ -49,7 +49,7 @@
 		
 	<skill id="combatprof1" cat="fighter" tier="4" max_level="1" desc_params="combat_proficiency;NODE;P" skill_points="1" skill_points_type="Fighter">
 		<level_req type="Fighter" value="5"/>		
-		<effect id="MaxStamina" change="0.25"/>
+		<effect id="MaxStamina" change="0.30"/>
 	</skill>
 
 	<skill id="WeaponProficiency" cat="fighter" tier="6" max_level="1" desc_params="conserve_weapons;P" skill_points="1" skill_points_type="Fighter">
@@ -86,7 +86,7 @@
 	<skill id="Health2" cat="fighter" tier="0" max_level="1" desc_params="sturdiness_2;P" skill_points="1" skill_points_type="Fighter">
 		<level_req type="Fighter" value="7"/>
 		<skill_req id="combatprof1"/>
-		<effect id="MaxHealth" change="x0.25"/>
+		<effect id="MaxHealth" change="x0.30"/>
 	</skill>	
 
 	<skill id="Overpowered2b" cat="fighter" tier="10" max_level="1" desc_params="consecutive_attack;P" skill_points="1" skill_points_type="Fighter">
@@ -120,13 +120,13 @@
 	
 	<skill id="combatprof2" cat="fighter" tier="13" max_level="1" desc_params="combat_mastery;NODE;P" skill_points="1" skill_points_type="Fighter">
 		<level_req type="Fighter" value="12"/>		
-		<effect id="MaxStamina" change="0.25"/>
+		<effect id="MaxStamina" change="0.30"/>
 	</skill>    
 
 	<skill id="Health3" cat="fighter" tier="16" max_level="1" desc_params="sturdiness_3" skill_points="1" skill_points_type="Fighter">
 		<level_req type="Fighter" value="13"/>
 		<skill_req id="combatprof2"/>
-		<effect id="MaxHealth" change="x0.25"/>
+		<effect id="MaxHealth" change="x0.30"/>
 	</skill> 
     
 	
@@ -291,12 +291,12 @@
 		<level_req  type="Runner" value="12"/>
 		<effect id="MaxFitness" change="0.75"/>
 		<effect id="NaturalMovementDevelopmentLevel" change="1"/>
-		<effect id="RunnerXPClimbShimmyUp" change="2.5"/>
-		<effect id="RunnerXPClimbEdgeGrab" change="15.0"/>
-		<effect id="RunnerXPClimbJump180" change="5.0"/>
-		<effect id="RunnerXPClimbFromBottom" change="7.5"/>
-		<effect id="RunnerXPClimbFromTop" change="2.5"/>
-		<effect id="RunnerXPJumpOn" change="5.0"/>
+		<effect id="RunnerXPClimbShimmyUp" change="10"/>
+		<effect id="RunnerXPClimbEdgeGrab" change="30.0"/>
+		<effect id="RunnerXPClimbJump180" change="10"/>
+		<effect id="RunnerXPClimbFromBottom" change="15"/>
+		<effect id="RunnerXPClimbFromTop" change="10"/>
+		<effect id="RunnerXPJumpOn" change="10"/>
 	</skill>
 	
 	<skill id="WallRun" cat="runner" tier="18" max_level="1" desc_params="tictac;M:WallRun" skill_points="1" skill_points_type="Runner">
@@ -326,7 +326,7 @@
 	<skill id="BackpackUpgrade2" cat="status" tier="1" max_level="1" desc_params="backpack_1;inventory_tab;P" skill_points="1" skill_points_type="Status">
 		<level_req type="Status" value="3"/>
 		<skill_req id="Survival101"/>
-		<effect id="InventorySize" change="4"/>
+		<effect id="InventorySize" change="6"/>
 	</skill>
 	
 	<skill id="BlueprintsKnives" cat="status" tier="2" max_level="1" desc_params="diy_stars;M:BlueprintsKnives" skill_points="1" skill_points_type="Status">
@@ -342,7 +342,8 @@
 	<skill id="ShopDiscount1" cat="status" tier="4" max_level="1" desc_params="discount;P" skill_points="1" skill_points_type="Status">
 		<level_req type="Status" value="4"/>
 		<skill_req id="Survival101"/>
-		<effect id="ItemBuyFactor" change="-0.1"/>
+		<effect id="ItemBuyFactor" change="-0.3"/>
+		<effect id="ItemSellFactor" change="0.10"/>
 	</skill>
 	
 	
@@ -355,7 +356,7 @@
 	<skill id="BackpackUpgrade3" cat="status" tier="6" max_level="1" desc_params="backpack_2;inventory_tab;P" skill_points="1" skill_points_type="Status">
 		<level_req type="Status" value="6"/>
 		<skill_req id="BackpackUpgrade2"/>
-		<effect id="InventorySize" change="6"/>
+		<effect id="InventorySize" change="10"/>
 	</skill>
 	
 	<skill id="BlueprintsGrenades" cat="status" tier="7" max_level="1" desc_params="diy_grenades;M:BlueprintsGrenades" skill_points="1" skill_points_type="Status">
@@ -366,7 +367,8 @@
 	<skill id="ShopDiscount2" cat="status" tier="9" max_level="1" desc_params="discount_2;P" skill_points="1" skill_points_type="Status">
 		<level_req type="Status" value="8"/>
 		<skill_req id="ShopDiscount1"/>
-		<effect id="ItemBuyFactor" change="-0.1"/>
+		<effect id="ItemBuyFactor" change="-0.3"/>
+		<effect id="ItemSellFactor" change="0.20"/>
 	</skill>	
 	
 	<skill id="BlueprintsFirecrackers" cat="status" tier="12" max_level="1" desc_params="diy_explosives;M:BlueprintsFirecrackers" skill_points="1" skill_points_type="Status">
@@ -377,7 +379,7 @@
 	<skill id="ShopDiscount3" cat="status" tier="15" max_level="1" desc_params="discount_3;P" skill_points="1" skill_points_type="Status">
 		<level_req type="Status" value="11"/>
 		<skill_req id="ShopDiscount2"/>
-		<effect id="ItemSellFactor" change="0.20"/>
+		<effect id="ItemSellFactor" change="0.25"/>
 	</skill>
 	
 	<skill id="craftingexpertise" cat="status" tier="17" max_level="1" desc_params="crafting_expertise;NODE;P" skill_points="1" skill_points_type="Status">

@@ -45,7 +45,7 @@ sub main()
         Skin("default");
         RequiredItem("Craft_MetalScrap", 1);
         Color(Color_White);
-        CraftedItem("LockpickItem", 3, 5);
+        CraftedItem("LockpickItem", 5, 5);
         CraftplanType("Utility");
         UniqueSaveID(2);
         HudIcon("blueprint_b");
@@ -63,7 +63,7 @@ sub main()
         RequiredItem("Craft_Sugar", 1);
         ExplosionFx("firecrackers_sequence.fx");
         Color(Color_White);
-        CraftedItem("Throwable_Decoy", 5, 8);
+        CraftedItem("Throwable_Decoy", 10, 8);
         CraftplanType("Utility");
         UniqueSaveID(3);
         HudIcon("blueprint_b");
@@ -147,7 +147,7 @@ sub main()
         RequiredItem("Craft_String", 1);
         Elemental(Elemental_Burning, 1);
         Color(Color_Green);
-        CraftedItem("Throwable_Molotov", 1, 2);
+        CraftedItem("Throwable_Molotov", 3, 2);
         CraftplanType("Throwable");
         UniqueSaveID(5);
         HudIcon("blueprint_b");
