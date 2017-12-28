@@ -45,7 +45,7 @@ sub main()
         Skin("default");
         RequiredItem("Craft_MetalScrap", 1);
         Color(Color_White);
-        CraftedItem("LockpickItem", 5, 5);
+        CraftedItem("LockpickItem", 5, 10);
         CraftplanType("Utility");
         UniqueSaveID(2);
         HudIcon("blueprint_b");
@@ -63,7 +63,7 @@ sub main()
         RequiredItem("Craft_Sugar", 1);
         ExplosionFx("firecrackers_sequence.fx");
         Color(Color_White);
-        CraftedItem("Throwable_Decoy", 10, 8);
+        CraftedItem("Throwable_Decoy", 5, 10);
         CraftplanType("Utility");
         UniqueSaveID(3);
         HudIcon("blueprint_b");
@@ -79,7 +79,7 @@ sub main()
         Skin("default");
         RequiredItem("Craft_Alcohol", 1);
         Color(Color_White);
-        CraftedItem("Throwable_Water", 3, 5);
+        CraftedItem("Throwable_Water", 3, 7);
         CraftplanType("Throwable");
         UniqueSaveID(2);
         HudIcon("blueprint_b");
@@ -112,7 +112,7 @@ sub main()
         RequiredItem("Craft_RazorBlade", 1);
         RequiredItem("Craft_String", 1);
         Color(Color_White);
-        CraftedItem("Throwable_ShurikenBGen", 5, 8);
+        CraftedItem("Throwable_ShurikenBGen", 5, 10);
         CraftplanType("Throwable");
         UniqueSaveID(4);
         HudIcon("blueprint_b");
@@ -129,7 +129,7 @@ sub main()
         RequiredItem("Craft_RazorBlade", 2);
         RequiredItem("Craft_String", 1);
         Color(Color_White);
-        CraftedItem("Throwable_ThrowingKnifeBGen", 5, 8);
+        CraftedItem("Throwable_ThrowingKnifeBGen", 5, 10);
         CraftplanType("Throwable");
         UniqueSaveID(101);
         HudIcon("blueprint_b");
@@ -147,7 +147,7 @@ sub main()
         RequiredItem("Craft_String", 1);
         Elemental(Elemental_Burning, 1);
         Color(Color_Green);
-        CraftedItem("Throwable_Molotov", 3, 2);
+        CraftedItem("Throwable_Molotov", 1, 4);
         CraftplanType("Throwable");
         UniqueSaveID(5);
         HudIcon("blueprint_b");
@@ -165,7 +165,7 @@ sub main()
         RequiredItem("Craft_Sugar", 1);
         RequiredItem("Craft_Bleach", 1);
         Color(Color_Green);
-        CraftedItem("Throwable_Btz_Flare", 1, 2);
+        CraftedItem("Throwable_Btz_Flare", 1, 5);
         CraftplanType("Throwable");
         UniqueSaveID(6);
         HudIcon("blueprint_b");
@@ -184,7 +184,7 @@ sub main()
         RequiredItem("Craft_TinCan", 1);
         Elemental(Elemental_Explosive, 1);
         Color(Color_Green);
-        CraftedItem("Throwable_ExplosiveGrenade", 2, 3);
+        CraftedItem("Throwable_ExplosiveGrenade", 2, 5);
         CraftplanType("Throwable");
         UniqueSaveID(7);
         HudIcon("blueprint_b");
@@ -204,7 +204,7 @@ sub main()
         RequiredItem("Craft_TinCan", 1);
         Elemental(Elemental_Bleeding, 4);
         Color(Color_Green);
-        CraftedItem("Throwable_BleedingGrenade", 2, 3);
+        CraftedItem("Throwable_BleedingGrenade", 2, 5);
         CraftplanType("Throwable");
         UniqueSaveID(8);
         HudIcon("blueprint_b");
@@ -223,7 +223,7 @@ sub main()
         RequiredItem("Craft_Gauze", 1);
         Elemental(Elemental_Burning, 4);
         Color(Color_Green);
-        CraftedItem("Throwable_BurningShuriken", 5, 8);
+        CraftedItem("Throwable_BurningShuriken", 5, 10);
         CraftplanType("Throwable");
         UniqueSaveID(9);
         HudIcon("blueprint_b");
@@ -242,7 +242,7 @@ sub main()
         RequiredItem("Craft_Gauze", 1);
         Elemental(Elemental_Explosive, 4);
         Color(Color_Green);
-        CraftedItem("Throwable_ExplosiveShuriken", 5, 8);
+        CraftedItem("Throwable_ExplosiveShuriken", 5, 10);
         CraftplanType("Throwable");
         UniqueSaveID(10);
         HudIcon("blueprint_b");
@@ -261,7 +261,7 @@ sub main()
         RequiredItem("Craft_Gauze", 1);
         Elemental(Elemental_Freezing, 2);
         Color(Color_Green);
-        CraftedItem("Throwable_FreezingShuriken", 5, 8);
+        CraftedItem("Throwable_FreezingShuriken", 5, 10);
         CraftplanType("Throwable");
         UniqueSaveID(11);
         HudIcon("blueprint_b");

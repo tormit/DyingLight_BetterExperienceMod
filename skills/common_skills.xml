@@ -408,8 +408,8 @@
 	<skill id="NimbleHands" cat="status" tier="16" max_level="1" desc_params="nimble_hands;P" skill_points="1" skill_points_type="Status">
 		<level_req type="Status" value="10"/> 
 		<skill_req id="RepairLuck"/>
-		<effect id="SearchDurationMul" change="x-0.5"/>
-		<effect id="ThoroughSearch" change="0.5"/>
+		<effect id="SearchDurationMul" change="x-0.75"/>
+		<effect id="ThoroughSearch" change="0.75"/>
 	</skill>
 	
 	<skill id="StatusCamouflage" cat="status" tier="11" max_level="1" desc_params="camouflage;M:StatusCamouflage" skill_points="1" skill_points_type="Status">
