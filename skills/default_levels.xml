@@ -263,11 +263,11 @@
     <prop n="MaxHealth" v="100"/>                               <!-- Amount of player health -->
     <prop n="BaseMaxHealth" v="100"/>                           <!-- DEPRECATED, TO BE REMOVED -->
     <prop n="HealthCriticalLevel" v="25"/>                      
-    <prop n="HealthRegenerationMaxLevel" v="25"/>               <!-- Regenerates health up to this value. Post process depends on LowHealthEffectThreshold  -->
+    <prop n="HealthRegenerationMaxLevel" v="100"/>               <!-- Regenerates health up to this value. Post process depends on LowHealthEffectThreshold  -->
     <prop n="LowHealthEffectThreshold" v="1.0"/>                <!-- Defines the value of health when critical health post process is working, based on HealthCriticalLevel -->
     <prop n="HealthRegenerationDelay" v="4.0"/>                 <!-- Time after which player starts to regenerate, measured from last hit -->
     <prop n="HealthRegenerationTimeToMax" v="8.0"/>             <!-- Time needed to regenerate health up to HealthRegenerationMaxLevel -->
-    <prop n="HealthPerSecond" v="10"/>                           <!-- Amount of health being regenerated each second, to be used as auto heal skill -->
+    <prop n="HealthPerSecond" v="0"/>                           <!-- Amount of health being regenerated each second, to be used as auto heal skill -->
     
     <prop n="AfterDeathHealthRegenTime" v="240"/>               <!-- Time it takes to regenerate full health after respawn -->
     <prop n="AfterDeathHealthFactor" v="1.0"/>                 <!-- Part of MaxHealth restored after respawn -->

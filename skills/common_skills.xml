@@ -188,7 +188,7 @@
 	<skill id="HealthRegen1" cat="runner" tier="3" max_level="1" desc_params="health_regeneration;P" skill_points="1" skill_points_type="Runner">
 		<level_req type="Runner" value="5"/>
 		<skill_req id="Dodge"/>
-		<effect id="HealthRegenerationMaxLevel" change="10"/>
+		<effect id="HealthRegenerationMaxLevel" change="20"/>
 	</skill>
 	
 	<skill id="LegBreaker" cat="runner" tier="11" max_level="1" desc_params="leg_breaker;M:LegBreaker" skill_points="1" skill_points_type="Runner">
@@ -309,7 +309,7 @@
 	<skill id="HealthRegen2" cat="runner" tier="20" max_level="1" desc_params="health_regeneration_2;P" skill_points="1" skill_points_type="Runner">
 		<level_req type="Runner" value="13"/>
 		<skill_req id="runningprof2"/>
-		<effect id="HealthRegenerationMaxLevel" change="10"/>
+		<effect id="HealthRegenerationMaxLevel" change="20"/>
 	</skill>
 	
 	<skill id="UltimateRunner" cat="runner" tier="21" max_level="1" desc_params="ultimate_freerunner;P" skill_points="1" skill_points_type="Runner">
