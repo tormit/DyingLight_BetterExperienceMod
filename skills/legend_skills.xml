@@ -67,7 +67,7 @@
     <level_req type="Legend" value="40" active_at_skill_level="10"/>
     <level_req type="Legend" value="60" active_at_skill_level="15"/>
     <level_req type="Legend" value="80" active_at_skill_level="20"/>
-    <effect id="LegendSkillOneHandedDamageMul" change="0.1"/>
+    <effect id="LegendSkillOneHandedDamageMul" change="0.08"/>
 </skill>
 
 <skill id="LegendSkill_TwoHandedDamage" cat="legend" tier="2" max_level = "25" skill_points="1" skill_points_type="Legend" desc_params="weapon_rebarb_big;P;ResultDisplayPercentage">
@@ -75,7 +75,7 @@
     <level_req type="Legend" value="40" active_at_skill_level="10"/>
     <level_req type="Legend" value="60" active_at_skill_level="15"/>
     <level_req type="Legend" value="80" active_at_skill_level="20"/>
-    <effect id="LegendSkillTwoHandedDamageMul" change="0.1"/>
+    <effect id="LegendSkillTwoHandedDamageMul" change="0.08"/>
 </skill>
 
 <skill id="LegendSkill_FirearmsDamage" cat="legend" tier="3" max_level = "25" skill_points="1" skill_points_type="Legend" desc_params="weapon_shotgun_c_big;P;ResultDisplayPercentage">
@@ -83,7 +83,7 @@
     <level_req type="Legend" value="40" active_at_skill_level="10"/>
     <level_req type="Legend" value="60" active_at_skill_level="15"/>
     <level_req type="Legend" value="80" active_at_skill_level="20"/>
-    <effect id="LegendSkillBulletDamageMul" change="0.20"/>
+    <effect id="LegendSkillBulletDamageMul" change="0.15"/>
 </skill>
 
 <skill id="LegendSkill_BowDamage" cat="legend" tier="4" max_level = "25" skill_points="1" skill_points_type="Legend" desc_params="weapon_bow_simple_big;P;ResultDisplayPercentage">
@@ -99,7 +99,7 @@
     <level_req type="Legend" value="40" active_at_skill_level="10"/>
     <level_req type="Legend" value="60" active_at_skill_level="15"/>
     <level_req type="Legend" value="80" active_at_skill_level="20"/>
-    <effect id="LegendThrowablesDamageMul" change="0.2"/>
+    <effect id="LegendThrowablesDamageMul" change="0.16"/>
 </skill>
 
 <skill id="LegendSkill_MaxStamina" cat="legend" tier="6" max_level = "25" skill_points="1" skill_points_type="Legend" desc_params="skills_category_fighter;P;ResultDisplayPercentage">

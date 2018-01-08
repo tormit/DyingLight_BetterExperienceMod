@@ -4401,7 +4401,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
    
     Item("Shield_Pro", CategoryType_Melee)
     {
-        Condition(100); 
+        Condition(1000); 
 		Color(Color_White);
         Mesh("wn_shield_selfmade.msh"); 
 		Skin("Default");
