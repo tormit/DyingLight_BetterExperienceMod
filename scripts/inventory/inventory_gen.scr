@@ -33222,7 +33222,7 @@ sub main()
         HudIcon("ammo_pistol");
         ItemType(ItemType_Bullet);
         AmmoType(AmmoType_Pistol);
-        MaxAmmoCount(90);
+        MaxAmmoCount(500);
     }
 
     Item("Bullet_Rifle", CategoryType_Ammo)
@@ -33231,7 +33231,7 @@ sub main()
         HudIcon("ammo_rifle");
         ItemType(ItemType_Bullet);
         AmmoType(AmmoType_Rifle);
-        MaxAmmoCount(180);
+        MaxAmmoCount(1000);
     }
 
     Item("Bullet_Shotgun", CategoryType_Ammo)
@@ -33240,7 +33240,7 @@ sub main()
         HudIcon("ammo_shotgun");
         ItemType(ItemType_Bullet);
         AmmoType(AmmoType_Shotgun);
-        MaxAmmoCount(72);
+        MaxAmmoCount(300);
     }
 
     Item("zzz_Bullet_Shisha", CategoryType_Ammo)
@@ -33249,7 +33249,7 @@ sub main()
         HudIcon("ammo_pistol");
         ItemType(ItemType_Bullet);
         AmmoType(AmmoType_Pistol);
-        MaxAmmoCount(60);
+        MaxAmmoCount(600);
     }
     
     //WHITE
