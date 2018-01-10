@@ -2071,7 +2071,7 @@ sub main()
         RequiredItem("Craft_MetalScrap", 1);
         RequiredItem("Craft_Nails", 1);
         Color(Color_Green);
-        CraftedItem("ZZZZ_Ammo_Arrow", 5, 8);
+        CraftedItem("ZZZZ_Ammo_Arrow", 5, 10);
         CraftplanType("Weapon");
         UniqueSaveID(106);
         HudIcon("blueprint_b");
@@ -2177,7 +2177,7 @@ sub main()
         RequiredItem("Craft_Nails", 1);
         RequiredItem("Craft_PlasticTube", 1);
         Color(Color_Green);
-        CraftedItem("ZZZZ3_Ammo_Crossbow_Single", 10, 15);
+        CraftedItem("ZZZZ3_Ammo_Crossbow_Single", 15, 20);
         CraftplanType("Weapon");
         UniqueSaveID(3002);
         HudIcon("blueprint_b");
