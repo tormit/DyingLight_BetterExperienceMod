@@ -7550,8 +7550,8 @@ sub main()
         AnimPrefix("Grenade");
         PhysicsScript("single_dropped_inventory.phx");
         HudIcon("weapon_frag_grenade");
-        Damage(1500.0);
-        DamageToPhysicsObjects(150.0);
+        Damage(1700.0);
+        DamageToPhysicsObjects(350.0);
         DamageRange(7.0);
         PhysicsDamageMul(1.0);
         HeadCutProb(1.0);
@@ -7563,7 +7563,7 @@ sub main()
         ThrowImpulseUp(2.0);
         ExplosionFx("diy_grenade_explosion_sequence.fx");
         ExplosionSound("homemade_bomb_explosion.wav");
-        ExplodeDelay(2.0);
+        ExplodeDelay(3.0);
         ThrowEndSound("throwing.wav");
         StatsType(StatsType_Explosive);
         NoiseType("EXPLOSION");
@@ -7585,8 +7585,8 @@ sub main()
         PhysicsScript("single_dropped_inventory.phx");
         HudIcon("weapon_throw_decoy");
         Condition(1);
-        Damage(1000.0);
-        DamageToPhysicsObjects(100.0);
+        Damage(1700.0);
+        DamageToPhysicsObjects(300.0);
         CriticalProb(0.0);
         CriticalDamage(0.0);
         DamageRange(5.0);
@@ -7601,7 +7601,7 @@ sub main()
         ThrowImpulseUp(2.0);
         ExplosionFx("nail_bomb_explosion_sequence.fx");
         ExplosionSound("nail_bomb_explosion.wav");
-        ExplodeDelay(2.0);
+        ExplodeDelay(10.0);
         ThrowEndSound("throwing.wav");
         StatsType(StatsType_Explosive);
         NoiseType("EXPLOSION");
