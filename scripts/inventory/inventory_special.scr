@@ -6681,7 +6681,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         ItemType(ItemType_Bullet);
         AmmoType(AmmoType_SubMachine);
         
-        MaxAmmoCount(270);
+        MaxAmmoCount(1000);
         
         Mesh("loot_ok_ammo_short.msh");
         HudIcon("ammo_pistol");
