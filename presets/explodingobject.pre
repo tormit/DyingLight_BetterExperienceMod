@@ -18,9 +18,9 @@ sub main()
         }
         Preset("GasCylinderSmall")
         {
-			SetField("m_ExplosionDelayTime", "10");
+			SetField("m_ExplosionDelayTime", "5");
 			SetField("m_BlastDamage", "1000");
-			SetField("m_BlastRange", "10");
+			SetField("m_BlastRange", "8");
 			SetField("m_PhysicsEffectRatio", "1");
 			SetField("m_RaySourceOffset", "0 0.25 0");
         }
