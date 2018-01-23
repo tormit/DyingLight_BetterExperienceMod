@@ -159,19 +159,19 @@
 
 <buff id="FoodSmall" duration="0">
     <OnGain>
-        <AddHealth value="5"/>
+        <AddHealth value="10"/>
     </OnGain>
 </buff>
 
 <buff id="FoodNormal" duration="0">
     <OnGain>
-        <AddHealth value="10"/>
+        <AddHealth value="15"/>
     </OnGain>
 </buff>
 
 <buff id="FoodLarge" duration="0">
     <OnGain>
-        <AddHealth value="15"/>
+        <AddHealth value="20"/>
     </OnGain>
 </buff>
 
