@@ -1732,7 +1732,7 @@ sub main()
         RequiredItem("Craft_Electronics", 5);
         NamePrefix("&ModifiedItemName&");
         Elemental(Elemental_ImpactElectricity, 3);
-        Elemental(Elemental_ShockElectricity, 3);
+        Elemental(Elemental_ShockElectricity, 2);
         Color(Color_Orange);
         CraftplanType("Weapon");
         UniqueSaveID(75);

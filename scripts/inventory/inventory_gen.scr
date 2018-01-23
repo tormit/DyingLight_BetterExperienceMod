@@ -29223,7 +29223,7 @@ sub main()
         ShotSound("SubMachineA_shot_XX.wav");
         BaseSoundPrefix("SubMachineA");
         DefaultBulletId("Bullet_SMG");
-        AmmoCount(45);
+        AmmoCount(60);
         ReloadTime(1.5);
         EmptySound("SubMachineA_empty.wav");
         TwoHanded(false);
@@ -29329,7 +29329,7 @@ sub main()
         ShotSound("SubMachineA_shot_XX.wav");
         BaseSoundPrefix("SubMachineA");
         DefaultBulletId("Bullet_SMG");
-        AmmoCount(45);
+        AmmoCount(60);
         ReloadTime(1.5);
         EmptySound("SubMachineA_empty.wav");
         TwoHanded(false);
@@ -29435,7 +29435,7 @@ sub main()
         ShotSound("SubMachineA_shot_XX.wav");
         BaseSoundPrefix("SubMachineA");
         DefaultBulletId("Bullet_SMG");
-        AmmoCount(45);
+        AmmoCount(60);
         ReloadTime(1.5);
         EmptySound("SubMachineA_empty.wav");
         TwoHanded(false);
@@ -29541,7 +29541,7 @@ sub main()
         ShotSound("SubMachineA_shot_XX.wav");
         BaseSoundPrefix("SubMachineA");
         DefaultBulletId("Bullet_SMG");
-        AmmoCount(45);
+        AmmoCount(60);
         ReloadTime(1.5);
         EmptySound("SubMachineA_empty.wav");
         TwoHanded(false);
@@ -29647,7 +29647,7 @@ sub main()
         ShotSound("SubMachineA_shot_XX.wav");
         BaseSoundPrefix("SubMachineA");
         DefaultBulletId("Bullet_SMG");
-        AmmoCount(45);
+        AmmoCount(60);
         ReloadTime(1.5);
         EmptySound("SubMachineA_empty.wav");
         TwoHanded(false);
@@ -29752,7 +29752,7 @@ sub main()
         ShotSound("SubMachineA_shot_XX.wav");
         BaseSoundPrefix("SubMachineA");
         DefaultBulletId("Bullet_SMG");
-        AmmoCount(45);
+        AmmoCount(60);
         ReloadTime(1.5);
         EmptySound("SubMachineA_empty.wav");
         TwoHanded(false);
@@ -29857,7 +29857,7 @@ sub main()
         ShotSound("SubMachineA_shot_XX.wav");
         BaseSoundPrefix("SubMachineA");
         DefaultBulletId("Bullet_SMG");
-        AmmoCount(45);
+        AmmoCount(60);
         ReloadTime(1.5);
         EmptySound("SubMachineA_empty.wav");
         TwoHanded(false);
@@ -30169,7 +30169,7 @@ sub main()
         ShotSound("mosin_shot_XX.wav");
         BaseSoundPrefix("mosin");
         DefaultBulletId("Bullet_Rifle");
-        AmmoCount(20);
+        AmmoCount(30);
         ReloadTime(1.5);
         EmptySound("m16_empty.wav");
         TwoHanded(true);
@@ -30284,7 +30284,7 @@ sub main()
         ShotSound("mosin_shot_XX.wav");
         BaseSoundPrefix("mosin");
         DefaultBulletId("Bullet_Rifle");
-        AmmoCount(20);
+        AmmoCount(30);
         ReloadTime(1.5);
         EmptySound("m16_empty.wav");
         TwoHanded(true);
@@ -30399,7 +30399,7 @@ sub main()
         ShotSound("mosin_shot_XX.wav");
         BaseSoundPrefix("mosin");
         DefaultBulletId("Bullet_Rifle");
-        AmmoCount(20);
+        AmmoCount(30);
         ReloadTime(1.5);
         EmptySound("m16_empty.wav");
         TwoHanded(true);
@@ -30516,7 +30516,7 @@ sub main()
         ShotSound("mosin_shot_XX.wav");
         BaseSoundPrefix("mosin");
         DefaultBulletId("Bullet_Rifle");
-        AmmoCount(20);
+        AmmoCount(30);
         ReloadTime(1.5);
         EmptySound("m16_empty.wav");
         TwoHanded(true);
@@ -30634,7 +30634,7 @@ sub main()
         ShotSound("mosin_shot_XX.wav");
         BaseSoundPrefix("mosin");
         DefaultBulletId("Bullet_Rifle");
-        AmmoCount(20);
+        AmmoCount(30);
         ReloadTime(1.5);
         EmptySound("m16_empty.wav");
         TwoHanded(true);
@@ -30749,7 +30749,7 @@ sub main()
         ShotSound("m4_shot_XX.wav");
         BaseSoundPrefix("m4");
         DefaultBulletId("Bullet_Rifle");
-        AmmoCount(30);
+        AmmoCount(35);
         ReloadTime(1.5);
         EmptySound("m16_empty.wav");
         TwoHanded(true);
@@ -30862,7 +30862,7 @@ sub main()
         ShotSound("m4_shot_XX.wav");
         BaseSoundPrefix("m4");
         DefaultBulletId("Bullet_Rifle");
-        AmmoCount(30);
+        AmmoCount(35);
         ReloadTime(1.5);
         EmptySound("m16_empty.wav");
         TwoHanded(true);
@@ -30975,7 +30975,7 @@ sub main()
         ShotSound("m4_shot_XX.wav");
         BaseSoundPrefix("m4");
         DefaultBulletId("Bullet_Rifle");
-        AmmoCount(30);
+        AmmoCount(35);
         ReloadTime(1.5);
         EmptySound("m16_empty.wav");
         TwoHanded(true);
@@ -31090,7 +31090,7 @@ sub main()
         ShotSound("m4_shot_XX.wav");
         BaseSoundPrefix("m4");
         DefaultBulletId("Bullet_Rifle");
-        AmmoCount(30);
+        AmmoCount(35);
         ReloadTime(1.5);
         EmptySound("m16_empty.wav");
         TwoHanded(true);
@@ -31206,7 +31206,7 @@ sub main()
         ShotSound("m4_shot_XX.wav");
         BaseSoundPrefix("m4");
         DefaultBulletId("Bullet_Rifle");
-        AmmoCount(30);
+        AmmoCount(35);
         ReloadTime(1.5);
         EmptySound("m16_empty.wav");
         TwoHanded(true);
@@ -32011,7 +32011,7 @@ sub main()
         ShotSound("ShotgunC_shot_XX.wav");
         BaseSoundPrefix("ShotgunC");
         DefaultBulletId("Bullet_Shotgun");
-        AmmoCount(8);
+        AmmoCount(10);
         ReloadTime(-1.0);
         EmptySound("ShotgunC_empty.wav");
         RagdollBehaviorPrefix("Shotgun");
@@ -32124,7 +32124,7 @@ sub main()
         ShotSound("ShotgunC_shot_XX.wav");
         BaseSoundPrefix("ShotgunC");
         DefaultBulletId("Bullet_Shotgun");
-        AmmoCount(8);
+        AmmoCount(10);
         ReloadTime(-1.0);
         EmptySound("ShotgunC_empty.wav");
         RagdollBehaviorPrefix("Shotgun");
@@ -32237,7 +32237,7 @@ sub main()
         ShotSound("ShotgunC_shot_XX.wav");
         BaseSoundPrefix("ShotgunC");
         DefaultBulletId("Bullet_Shotgun");
-        AmmoCount(8);
+        AmmoCount(10);
         ReloadTime(-1.0);
         EmptySound("ShotgunC_empty.wav");
         RagdollBehaviorPrefix("Shotgun");
@@ -32350,7 +32350,7 @@ sub main()
         ShotSound("ShotgunC_shot_XX.wav");
         BaseSoundPrefix("ShotgunC");
         DefaultBulletId("Bullet_Shotgun");
-        AmmoCount(8);
+        AmmoCount(10);
         ReloadTime(-1.0);
         EmptySound("ShotgunC_empty.wav");
         RagdollBehaviorPrefix("Shotgun");
@@ -32463,7 +32463,7 @@ sub main()
         ShotSound("ShotgunC_shot_XX.wav");
         BaseSoundPrefix("ShotgunC");
         DefaultBulletId("Bullet_Shotgun");
-        AmmoCount(8);
+        AmmoCount(10);
         ReloadTime(-1.0);
         EmptySound("ShotgunC_empty.wav");
         RagdollBehaviorPrefix("Shotgun");
@@ -32576,7 +32576,7 @@ sub main()
         ShotSound("ShotgunC_shot_XX.wav");
         BaseSoundPrefix("ShotgunC");
         DefaultBulletId("Bullet_Shotgun");
-        AmmoCount(8);
+        AmmoCount(10);
         ReloadTime(-1.0);
         EmptySound("ShotgunC_empty.wav");
         RagdollBehaviorPrefix("Shotgun");
@@ -32908,7 +32908,7 @@ sub main()
         ShotSound("glock_shot_XX.wav");
         BaseSoundPrefix("glock");
         DefaultBulletId("Bullet_Pistol");
-        AmmoCount(8);
+        AmmoCount(10);
         ReloadTime(1.5);
         EmptySound("beretta_empty.wav");
         TwoHanded(false);
