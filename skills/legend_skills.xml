@@ -124,7 +124,7 @@
     <level_req type="Legend" value="60" active_at_skill_level="15"/>
     <level_req type="Legend" value="80" active_at_skill_level="20"/>
     <effect id="HealthRegenerationMaxLevel" change="3.00"/>
-    <effect id="HealthRegenerationTimeToMaxMul" change="-0.1"/>    
+    <effect id="HealthRegenerationTimeToMaxMul" change="-0.02"/>    
 </skill>
 
 <skill id="LegendSkill_HealingEfficiency" cat="legend" tier="9" max_level = "25" skill_points="1" skill_points_type="Legend" desc_params="bundle_medical_big;P;ResultDisplayPercentage">
