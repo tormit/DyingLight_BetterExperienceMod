@@ -342,8 +342,7 @@
 	<skill id="ShopDiscount1" cat="status" tier="4" max_level="1" desc_params="discount;P" skill_points="1" skill_points_type="Status">
 		<level_req type="Status" value="4"/>
 		<skill_req id="Survival101"/>
-		<effect id="ItemBuyFactor" change="-0.3"/>
-		<effect id="ItemSellFactor" change="0.10"/>
+		<effect id="ItemBuyFactor" change="-0.1"/>
 	</skill>
 	
 	
@@ -367,8 +366,7 @@
 	<skill id="ShopDiscount2" cat="status" tier="9" max_level="1" desc_params="discount_2;P" skill_points="1" skill_points_type="Status">
 		<level_req type="Status" value="8"/>
 		<skill_req id="ShopDiscount1"/>
-		<effect id="ItemBuyFactor" change="-0.3"/>
-		<effect id="ItemSellFactor" change="0.20"/>
+		<effect id="ItemBuyFactor" change="-0.1"/>
 	</skill>	
 	
 	<skill id="BlueprintsFirecrackers" cat="status" tier="12" max_level="1" desc_params="diy_explosives;M:BlueprintsFirecrackers" skill_points="1" skill_points_type="Status">
@@ -379,7 +377,7 @@
 	<skill id="ShopDiscount3" cat="status" tier="15" max_level="1" desc_params="discount_3;P" skill_points="1" skill_points_type="Status">
 		<level_req type="Status" value="11"/>
 		<skill_req id="ShopDiscount2"/>
-		<effect id="ItemSellFactor" change="0.25"/>
+		<effect id="ItemSellFactor" change="0.20"/>
 	</skill>
 	
 	<skill id="craftingexpertise" cat="status" tier="17" max_level="1" desc_params="crafting_expertise;NODE;P" skill_points="1" skill_points_type="Status">
