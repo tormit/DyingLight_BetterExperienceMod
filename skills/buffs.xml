@@ -838,3 +838,282 @@
 		<ApplyBuff id="DamageResistatenMeleeAndBulletHard" />
     </OnGain>
 </buff>
+
+<buff id="Halloween1" duration="75" max_stacks="1">
+	<property name="MoveBackwardMaxSpeed" value_add="2.25"/>
+	<property name="MoveForwardMaxSpeed" value_add="2.25"/>
+	<property name="MoveStrafeMaxSpeed" value_add="2.25"/>
+	<property name="MoveSprintSpeed" value_add="2.25"/>	
+	<varlist_timeline var="f_game_player_pounced">
+		<key t="0" val="0"/>
+		<key t="0.1" val="0.8"/>
+		<key t="0.3" val="0.6"/>
+		<key t="2" val="0"/>
+	</varlist_timeline>
+	<sound t="0.1" file="box_bozak_laugh.wav"/>
+	<sound t="75" file="zombieplayer_player_breath_scared_stop_01.wav"/>
+	<hud_icon val="potion_timer_speed"/>
+</buff>
+
+<buff id="Halloween2" duration="15" max_stacks="1">
+	<OnGain>
+		<AddControlsInvert value="1.0" delay="1.0" duration="14.0" camoDelay="0.0" camoDuration="0.0"/>
+	</OnGain>
+	<varlist_timeline var="f_movie_toxic">
+		<key t="0" val="0"/>
+		<key t="0.5" val="1"/>
+		<key t="1" val="1"/>
+		<key t="1.5" val="0.6"/>
+		<key t="2" val="0"/>
+	</varlist_timeline>
+	<sound t="0.1" file="box_bozak_laugh.wav"/>
+	<sound t="15" file="zombieplayer_player_breath_scared_stop_01.wav"/>
+	<hud_icon val="icon_pumpkin_juice_hq"/>
+</buff>
+
+<buff id="Halloween3" duration="75" max_stacks="1">
+	<property name="BaseDamageMul" value_add="2.0"/>
+	<varlist_timeline var="f_game_player_night_vision">
+		<key t="0" val="0"/>
+		<key t="0.5" val="0.8"/>
+		<key t="1" val="0.6"/>
+		<key t="1.5" val="0.3"/>
+		<key t="2" val="0"/>
+	</varlist_timeline>
+	<sound t="0.1" file="box_bozak_laugh.wav"/>
+	<sound t="75" file="zombieplayer_player_breath_scared_stop_01.wav"/>
+	<hud_icon val="potion_timer_damage"/>
+</buff>
+
+<buff id="Halloween4" duration="15" max_stacks="1">
+	<OnGain>
+		<ApplyBuff id="Drunk"/>
+	</OnGain>
+	<varlist_timeline var="f_game_player_knockdown">
+		<key t="0" val="0"/>
+		<key t="0.5" val="0.8"/>
+		<key t="0.8" val="0.8"/>
+		<key t="1.4" val="0.4"/>
+		<key t="9.5" val="0.4"/>
+		<key t="15" val="0"/>
+	</varlist_timeline>
+	<sound t="0.1" file="box_bozak_laugh.wav"/>
+	<sound t="15" file="zombieplayer_player_breath_scared_stop_01.wav"/>
+	<hud_icon val="icon_pumpkin_juice_hq"/>
+</buff>
+
+<buff id="Halloween5" duration="75" max_stacks="1">
+	<OnGain>
+		<AddStaminaPercent value="1.0"/>
+		<AddStaminaDropResistance value="20"/>
+	</OnGain>
+	<varlist_timeline var="f_game_player_gre">
+		<key t="0" val="0"/>
+		<key t="0.5" val="1"/>
+		<key t="1" val="1"/>
+		<key t="1.5" val="0.6"/>
+		<key t="2" val="0"/>
+	</varlist_timeline>
+	<sound t="0.1" file="box_bozak_laugh.wav"/>
+	<sound t="75" file="zombieplayer_player_breath_scared_stop_01.wav"/>
+	<hud_icon val="potion_timer_stamina"/>
+</buff>
+
+<buff id="Halloween6" duration="15" max_stacks="1">
+	<OnGain>
+		<AddCameraRotate value="1.0" delay="1.0" duration="14.0" camoDelay="0.0" camoDuration="0.0"/>
+	</OnGain>
+	<varlist_timeline var="f_game_saturation">
+		<key t="0" val="1"/>
+		<key t="0.2" val="1.5"/>
+		<key t="0.3" val="2"/>
+		<key t="0.4" val="2.6"/>
+		<key t="2" val="1"/>
+	</varlist_timeline>
+	<sound t="0.1" file="box_bozak_laugh.wav"/>
+	<sound t="15" file="zombieplayer_player_breath_scared_stop_01.wav"/>
+	<hud_icon val="icon_pumpkin_juice_hq"/>
+</buff>
+
+<buff id="Halloween7" duration="150" max_stacks="1">
+  <property name="BaseDamageMul" value_add="2.0"/>
+  <property name="MoveBackwardMaxSpeed" value_add="2.25"/>
+  <property name="MoveForwardMaxSpeed" value_add="2.25"/>
+  <property name="MoveStrafeMaxSpeed" value_add="2.25"/>
+  <property name="MoveSprintSpeed" value_add="2.25"/>
+  <OnGain>
+    <AddStaminaPercent value="1.0"/>
+    <AddStaminaDropResistance value="20"/>
+  </OnGain>
+  <varlist_timeline var="f_game_player_night_vision">
+    <key t="0" val="0"/>
+    <key t="3" val="0.9"/>
+    <key t="147" val="0.8"/>
+    <key t="149" val="0"/>
+  </varlist_timeline>
+  <sound t="0.1" file="box_bozak_laugh.wav"/>
+  <sound t="150" file="zombieplayer_player_breath_scared_stop_01.wav"/>
+  <hud_icon val="icon_pumpkin_juice_hq"/>
+</buff>
+
+<buff id="Christmas1_Resistance" duration="20" max_stacks="1">
+  <property name="MeleeDamageReduction" value_add="0.95"/>
+  <property name="BulletDamageReduction" value_add="0.95"/>
+  <OnGain>
+    <AddHealthPercent value="1.0"/>
+  </OnGain>
+  <hud_icon val="potion_timer_resistance"/>
+</buff>
+
+<buff id="Christmas3_NightVision" duration="20" max_stacks="1">
+  <property name="NightDamageMul" value_add="0.25"/>
+  <varlist_timeline var="f_game_player_night_vision">
+    <key t="0" val="0"/>
+    <key t="1" val="1"/>
+    <key t_e="-2.5" val="1"/>
+    <key t_e="0" val="0"/>
+  </varlist_timeline>
+  <hud_icon val="potion_timer_nightvision"/>
+</buff>
+
+<buff id="Christmas5_Stamina" duration="20" max_stacks="1">
+  <property name="StaminaTimeToRegenerate" value_add="-20.0"/>
+  <property name="StaminaRegeneration" value_add="100.0"/>
+  <property name="StaminaRegenerationFactor" value_add="100.0"/>
+  <OnGain>
+    <AddStamina value="4.0"/>
+  </OnGain>
+  <hud_icon val="potion_timer_stamina"/>
+</buff>
+
+<buff id="Christmas8_Speed" duration="20" max_stacks="1">
+  <property name="FitnessTimeToRegenerate" value_add="-20.0"/>
+  <property name="FitnessRegenRate" value_add="100.0"/>
+  <property name="FitnessRegenerationFactor" value_add="100.0"/>
+  <property name="MoveBackwardMaxSpeed" value_add="2.0"/>
+  <property name="MoveForwardMaxSpeed" value_add="2.0"/>
+  <property name="MoveStrafeMaxSpeed" value_add="2.0"/>
+  <property name="MoveSprintSpeed" value_add="2.0"/>
+  <OnGain>
+    <AddFitness value="4.0"/>
+  </OnGain>
+  <hud_icon val="potion_timer_speed"/>
+</buff>
+
+<buff id="Eggnog" duration="120" max_stacks="1">
+  <property name="FitnessTimeToRegenerate" value_add="-20.0"/>
+  <property name="FitnessRegenRate" value_add="100.0"/>
+  <property name="FitnessRegenerationFactor" value_add="100.0"/>
+  <property name="MoveBackwardMaxSpeed" value_add="2.5"/>
+  <property name="MoveForwardMaxSpeed" value_add="2.5"/>
+  <property name="MoveStrafeMaxSpeed" value_add="2.5"/>
+  <property name="MoveSprintSpeed" value_add="2.5"/>
+  <property name="StaminaTimeToRegenerate" value_add="-20.0"/>
+  <property name="StaminaRegeneration" value_add="100.0"/>
+  <property name="StaminaRegenerationFactor" value_add="100.0"/>
+  <property name="MeleeDamageReduction" value_add="0.8"/>
+  <property name="BulletDamageReduction" value_add="0.8"/>
+  <OnGain>
+    <AddFitness value="4.0"/>
+    <AddStamina value="4.0"/>
+    <AddHealthPercent value="1.0"/>
+	<AddDrunk value="0.33"/>
+  </OnGain>
+  <varlist_timeline var="f_game_saturation">
+    <key t="0" val="1.00"/>
+    <key t="3" val="1.45"/>
+    <key t="117" val="1.45"/>
+    <key t="120" val="1.0"/>
+  </varlist_timeline>
+  <varlist_timeline var="f_blur_motion">
+		<key t="0" val="0"/>
+		<key t="0.4" val="1.0"/>	
+		<key t_e="-0.2" val="1.0"/>	
+		<key t_e="0" val="0"/>
+	</varlist_timeline>
+  <sound t="0.1" file="Christmas_Bell_02.wav"/>
+  <sound t="50" file="Christmas_Bell_02.wav"/>
+  <sound t="75" file="Christmas_Bell_02.wav"/>
+  <sound t="100" file="Christmas_Bell_02.wav"/>
+  <sound t="119" file="zombieplayer_player_breath_scared_stop_01.wav"/>
+  <hud_icon val="weapon_snowball_big"/>
+</buff>
+
+<buff id="GREBoost" duration="60" max_stacks="1">
+  <!-- INFINITE STAMINA -->
+  <!-- +25% HEALTH -->
+  <!-- SLIGHT INCREASE IN SPEED -->
+  <property name="FitnessTimeToRegenerate" value_add="-20.0"/>
+  <property name="FitnessRegenRate" value_add="100.0"/>
+  <property name="FitnessRegenerationFactor" value_add="100.0"/>
+  <property name="StaminaTimeToRegenerate" value_add="-20.0"/>
+  <property name="StaminaRegeneration" value_add="100.0"/>
+  <property name="StaminaRegenerationFactor" value_add="100.0"/>
+  <property name="MoveBackwardMaxSpeed" value_add="1.50"/>
+  <property name="MoveForwardMaxSpeed" value_add="1.50"/>
+  <property name="MoveStrafeMaxSpeed" value_add="1.50"/>
+  <property name="MoveSprintSpeed" value_add="1.50"/>	
+  <OnGain>
+    <AddFitness value="4.0"/> 
+    <AddStamina value="4.0"/> 
+    <AddHealthPercent value="1.25"/> 
+  </OnGain>
+  <varlist_timeline var="f_game_saturation">
+    <key t="0" val="1.00"/>
+    <key t="3" val="2.00"/>
+    <key t="57" val="2.00"/>
+    <key t="60" val="1.0"/>
+  </varlist_timeline>
+  <varlist_timeline var="f_blur_motion">
+		<key t="0" val="0"/>
+		<key t="0.4" val="1.0"/>	
+		<key t_e="-0.2" val="1.0"/>	
+		<key t_e="0" val="0"/>
+  </varlist_timeline>
+  <sound t="60" file="zombieplayer_player_breath_scared_stop_01.wav"/>
+  <hud_icon val="potion_timer_stamina_hp_2"/> 
+</buff>
+
+<!-- Hellraid Potions -->
+
+<buff id="Hellraid_Speed" duration="30" max_stacks="1">
+  <property name="MoveBackwardMaxSpeed" value_add="2.5"/>
+  <property name="MoveForwardMaxSpeed" value_add="2.5"/>
+  <property name="MoveStrafeMaxSpeed" value_add="2.5"/>
+  <property name="MoveSprintSpeed" value_add="2.5"/>
+  <OnGain>
+    <AddFitness value="4.0"/>
+  </OnGain>
+  <hud_icon val="potion_timer_speed"/>
+</buff>
+
+<buff id="Hellraid_Damage" duration="30" max_stacks="1">
+  <OnGain>
+    <ApplyBuff id="DoubleDamage" />
+  </OnGain>
+  <hud_icon val="potion_timer_damage"/>
+</buff>
+ 
+ <buff id="Hellraid_Armor" duration="30" max_stacks="1">
+  <OnGain>
+	<ApplyBuff id="DamageResistatenMeleeAndBullet" />
+  </OnGain>
+  <hud_icon val="potion_timer_resistance"/>
+</buff>
+
+<buff id="DarkknightDebuff" duration="7.2" max_stacks="1">
+  <property name="MoveSpeedFactor" value_add="-0.5"/>
+  <varlist_timeline var="f_movie_toxic">
+    <key t="0" val="0.00"/>
+    <key t="0.5" val="0.5"/>
+    <key t="6.6" val="0.5"/>
+    <key t="7.1" val="0.0"/>
+  </varlist_timeline>
+  <varlist_timeline var="f_game_saturation">
+    <key t="0" val="1.00"/>
+    <key t="0.5" val="0.50"/>
+    <key t="6.6" val="0.50"/>
+    <key t="7.1" val="1.0"/>
+  </varlist_timeline>
+  <hud_icon val="weapon_snowball_big"/>
+</buff>

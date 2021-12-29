@@ -477,6 +477,26 @@ sub main()
             ElementalSecPower(1.05);
         }
     }
+	
+	Elemental(Elemental_ShockElectricity)
+    {
+        Level(101)
+        {
+            DamageMul(0.01);
+            DamageCriticalMul(0.01);
+            ProcProb(1.0);
+            //DamageDuration(8.0);
+            NightCreatureDmgMul(1.0);
+            DpsAccumulation(0.0);
+            StaminaReduction(0.0);
+            BlastRange(3.0);
+            BlastDamage(10.0);
+            BlastPhysicsDamage(2.0);
+            PropagateProb(1.0);
+            ElementalPower(0.9);
+            ElementalSecPower(1.05);
+        }
+    }
 
     Elemental(Elemental_ImpactElectricity)
     {

@@ -12143,7 +12143,7 @@ sub main()
         ItemType(ItemType_Stick);
         PhysicsScript("single_dropped_inventory.phx");
         UpgradeLevel(0);
-        Condition(20);
+        Condition(60);
         CriticalCondition(6);
         Damage(20.0);
         Force(10.0);
@@ -12235,7 +12235,7 @@ sub main()
         ItemType(ItemType_Stick);
         PhysicsScript("single_dropped_inventory.phx");
         UpgradeLevel(0);
-        Condition(20);
+        Condition(60);
         CriticalCondition(6);
         Damage(20.0);
         Force(12.0);
@@ -12329,7 +12329,7 @@ sub main()
         UpgradeLevel(0);
         Condition(20);
         CriticalCondition(6);
-        Damage(20.0);
+        Damage(60.0);
         Force(12.0);
         CriticalProb(0.0);
         CriticalDamage(2.0);
@@ -12419,7 +12419,7 @@ sub main()
         ItemType(ItemType_Stick);
         PhysicsScript("single_dropped_inventory.phx");
         UpgradeLevel(0);
-        Condition(20);
+        Condition(60);
         CriticalCondition(6);
         Damage(20.0);
         Force(12.0);
@@ -12603,7 +12603,7 @@ sub main()
         ItemType(ItemType_Stick);
         PhysicsScript("single_dropped_inventory.phx");
         UpgradeLevel(0);
-        Condition(30);
+        Condition(60);
         CriticalCondition(9);
         Damage(25.0);
         Force(14.0);
@@ -12789,7 +12789,7 @@ sub main()
         ItemType(ItemType_Stick);
         PhysicsScript("single_dropped_inventory.phx");
         UpgradeLevel(0);
-        Condition(30);
+        Condition(60);
         CriticalCondition(9);
         Damage(25.0);
         Force(14.0);
@@ -12975,7 +12975,7 @@ sub main()
         ItemType(ItemType_Stick);
         PhysicsScript("single_dropped_inventory.phx");
         UpgradeLevel(0);
-        Condition(30);
+        Condition(60);
         CriticalCondition(9);
         Damage(25.0);
         Force(14.0);
@@ -13252,7 +13252,7 @@ sub main()
         ItemType(ItemType_Stick);
         PhysicsScript("single_dropped_inventory.phx");
         UpgradeLevel(0);
-        Condition(30);
+        Condition(60);
         CriticalCondition(9);
         Damage(25.0);
         Force(14.0);
@@ -13438,7 +13438,7 @@ sub main()
         ItemType(ItemType_Stick);
         PhysicsScript("single_dropped_inventory.phx");
         UpgradeLevel(0);
-        Condition(30);
+        Condition(60);
         CriticalCondition(9);
         Damage(25.0);
         Force(14.0);
@@ -13531,7 +13531,7 @@ sub main()
         ItemType(ItemType_Stick);
         PhysicsScript("single_dropped_inventory.phx");
         UpgradeLevel(0);
-        Condition(30);
+        Condition(60);
         CriticalCondition(9);
         Damage(25.0);
         Force(14.0);
@@ -27693,6 +27693,7 @@ sub main()
         CutTypesGroup(CutTypesGroup_Holes);
         DamageType(DamageType_Bullet);
         Mesh("wn_pistol_a.msh");
+        SkinTag("Weapon_Craft0");
         AnimPrefix("Beretta");
         HudIcon("weapon_pistol");
         ShotTime(0.3);
@@ -27802,6 +27803,7 @@ sub main()
         DamageType(DamageType_Bullet);
         Mesh("wn_pistol_a.msh");
         Skin("sand_plastic");
+        SkinTag("Weapon_Craft0");
         AnimPrefix("Beretta");
         HudIcon("weapon_pistol");
         ShotTime(0.3);
@@ -27912,6 +27914,7 @@ sub main()
         DamageType(DamageType_Bullet);
         Mesh("wn_pistol_a.msh");
         Skin("olive_plastic");
+        SkinTag("Weapon_Craft0");
         AnimPrefix("Beretta");
         HudIcon("weapon_pistol");
         ShotTime(0.3);
@@ -28021,6 +28024,7 @@ sub main()
         DamageType(DamageType_Bullet);
         Mesh("wn_pistol_a.msh");
         Skin("Special");
+        SkinTag("Weapon_Craft0");
         AnimPrefix("Beretta");
         HudIcon("weapon_pistol");
         ShotTime(0.3);
@@ -28127,6 +28131,7 @@ sub main()
         LegsCutProb(0.0);
         DamageType(DamageType_Bullet);
         Mesh("wn_pistol_b.msh");
+        SkinTag("Weapon_Craft0");
         AnimPrefix("Beretta");
         HudIcon("weapon_pistol");
         ShotTime(0.15);
@@ -28236,6 +28241,7 @@ sub main()
         DamageType(DamageType_Bullet);
         Mesh("wn_pistol_b.msh");
         Skin("sand_plastic");
+        SkinTag("Weapon_Craft0");
         AnimPrefix("Beretta");
         HudIcon("weapon_pistol");
         ShotTime(0.15);
@@ -28345,6 +28351,7 @@ sub main()
         DamageType(DamageType_Bullet);
         Mesh("wn_pistol_b.msh");
         Skin("olive_plastic");
+        SkinTag("Weapon_Craft0");
         AnimPrefix("Beretta");
         HudIcon("weapon_pistol");
         ShotTime(0.15);
@@ -28455,6 +28462,7 @@ sub main()
         DamageType(DamageType_Bullet);
         Mesh("wn_pistol_b.msh");
         Skin("special");
+        SkinTag("Weapon_Craft0");
         AnimPrefix("Beretta");
         HudIcon("weapon_pistol");
         ShotTime(0.15);
@@ -32902,6 +32910,7 @@ sub main()
         CutTypesGroup(CutTypesGroup_Holes);
         DamageType(DamageType_Bullet);
         Mesh("wn_pistol_a.msh");
+        SkinTag("Weapon_Craft0");
         AnimPrefix("Beretta");
         HudIcon("weapon_pistol");
         ShotTime(0.3);
@@ -33125,6 +33134,7 @@ sub main()
         DamageType(DamageType_Bullet);
         Mesh("wn_pistol_a.msh");
         Skin("Rais");
+        SkinTag("Weapon_Craft0");
         AnimPrefix("Beretta");
         HudIcon("weapon_pistol");
         ShotTime(0.15);
@@ -33231,7 +33241,7 @@ sub main()
         HudIcon("ammo_rifle");
         ItemType(ItemType_Bullet);
         AmmoType(AmmoType_Rifle);
-        MaxAmmoCount(1000);
+        MaxAmmoCount(999);
     }
 
     Item("Bullet_Shotgun", CategoryType_Ammo)

@@ -38,7 +38,7 @@
 			
 	<prop n="NightExpActionsReward" v="1.25"/>
 	<prop n="NightExpLootedReward" v="6.0"/>
-	<prop n="NightExpUnspotedReward" v="2.0"/>	
+	<prop n="NightExpUnspotedReward" v="2.0"/>
 	<prop n="NightExpKillReward" v="50"/>
 	<prop n="NightExpPbActivatedReward" v="50.0"/>	
 	<prop n="RopePullBackStaminaUsageFactor" v="0.0"/>
@@ -355,7 +355,7 @@
     <prop n="ChargeStaminaDecreaseFactor" v="0"/>
     <prop n="ChargeAutoReleaseTime" v="-1.0"/>  
 	<prop n="ChargeHoldDuration" v="0.5"/>  	
-    <prop n="ChargeWeaponDurabilityMul" v="0.0"/>   
+    <prop n="ChargeWeaponDurabilityMul" v="0.0"/>
     
 
     <!-- Stick -->
@@ -600,7 +600,7 @@
 	<prop n="DriverXPPursuitLvl3PerSec" v="4.00"/>
 	<prop n="DriverXPPursuitLvl4PerSec" v="5.00"/>
 	
-	<prop n="RunnerXPRunningPerSec" v="0.1"/>	
+	<prop n="RunnerXPRunningPerSec" v="0.1"/>
     <prop n="RunnerXPClimbShimmyUp" v="25.0"/>
 	<prop n="RunnerXPClimbEdgeGrab" v="100.0"/>
 	<prop n="RunnerXPClimbJump180" v="50.0"/>
@@ -609,7 +609,7 @@
 	<prop n="RunnerXPJumpOn" v="50.0"/>
 	<prop n="RunnerXPFactor" v="1.0"/>	
 	
-    <prop n="RunnerXPSkillSlide" v="100.0"/>    
+    <prop n="RunnerXPSkillSlide" v="100.0"/>
     <prop n="RunnerXPSkillTackle" v="100.0"/>
     <prop n="RunnerXPSkillLanding" v="100.0"/>
     <prop n="RunnerXPSkillJumpOverZombie" v="100.0"/>
@@ -624,18 +624,18 @@
 	<prop n="RunnerXPDodgedAttack" v="100.0"/>
 	<prop n="RunnerXPSkillWrestleKick" v="100.0"/>
 	
-	<prop n="RunnerXPNightFactor" v="3.0"/>	
-	<prop n="FighterXPNightFactor" v="3.0"/>	
+	<prop n="RunnerXPNightFactor" v="3.0"/>
+	<prop n="FighterXPNightFactor" v="3.0"/>
 	<prop n="SurvivorXPNightFactor" v="3.0"/>
 	<prop n="DriverXpNightFactor" v="3.0"/>
 	
     <prop n="FighterXPSkillCharge" v="55.0"/>
     <prop n="FighterXPSkillWhirlwind" v="150.0"/>
-    <prop n="FighterXPSkillGroundPound" v="100.0"/>        
+    <prop n="FighterXPSkillGroundPound" v="100.0"/>
     <prop n="FighterXPSkillBackKill" v="100.0"/>
     <prop n="FighterXPSkillJumpAttack" v="125.0"/>
     <prop n="FighterXPSkillFootballKick" v="125.0"/>
-    <prop n="FighterXPSkillFronKill" v="100.0"/>	
+    <prop n="FighterXPSkillFronKill" v="100.0"/>
 	<prop n="FighterXPFirearmDamageFactor" v="0.1"/>
 	
     <prop n="LimbCutOforDestrXP" v="0.0"/>
@@ -974,9 +974,23 @@
 <level id="4" type="Reputation"><prop n="ExpToNextLevelReputation" v="1000"/></level>
 <level id="5" type="Reputation"><prop n="ExpToNextLevelReputation" v="1250"/></level>
 <level id="6" type="Reputation"><prop n="ExpToNextLevelReputation" v="99999999"/></level>
-
-
 <!-- PLAYER EXPERIENCE REPUTATION END-->
+
+<!-- PLAYER EXPERIENCE HELLRAID-->
+<level id="1"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="10000"/></level> <!-- Takes about half of first floor to obtain. (First combat area). -->
+<level id="2"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="12500"/></level> <!-- (+ 2500) First floor +/- half into the second. -->
+<level id="3"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="16000"/></level> <!-- (+ 3500) Down to second floor. -->
+<level id="4"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="19500"/></level> <!-- (+ 4500) -->
+<level id="5"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="25000"/></level> <!-- (+ 5500) -->
+<level id="6"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="30500"/></level> <!-- (+ 6500) -->
+<level id="7"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="37000"/></level> <!-- (+ 7500) -->
+<level id="8"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="44500"/></level> <!-- (+ 8500) -->
+<level id="9"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="54000"/></level> <!-- (+ 9500) -->
+<level id="10"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="66000"/></level> <!-- (+ 12000) -->
+<level id="11"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="78000"/></level> <!-- (+ 13000) -->
+<level id="12"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="92000"/></level> <!-- (+ 14000) -->
+<level id="13"  type="Hellraid"><prop n="ExpToNextLevelHellraid" v="107000"/></level> <!-- (+ 15000) -->
+<!-- PLAYER EXPERIENCE HELLRAID END-->
 
 <!-- SKILL POINTS LEGEND--> 
 <level id="1" type="Legend"><prop n="SkillPointsLegend" v="0"/><prop n="LegendTier" v="0"/></level>
@@ -1606,9 +1620,9 @@
 <level id="17" type="Status"><prop n="NightExpPursuitReward"  v="19.66666667"/></level>
 <level id="18" type="Status"><prop n="NightExpPursuitReward"  v="20.79166667"/></level>
 <level id="19" type="Status"><prop n="NightExpPursuitReward"  v="21.83333333"/></level>
-<level id="20" type="Status"><prop n="NightExpPursuitReward"  v="22.04166667"/></level>
-<level id="21" type="Status"><prop n="NightExpPursuitReward"  v="23.625"/></level>
-<level id="22" type="Status"><prop n="NightExpPursuitReward"  v="24.0625"/></level>
+<level id="20" type="Status"><prop n="NightExpPursuitReward"  v="23.04166667"/></level>
+<level id="21" type="Status"><prop n="NightExpPursuitReward"  v="24.025"/></level>
+<level id="22" type="Status"><prop n="NightExpPursuitReward"  v="25.0625"/></level>
 <level id="23" type="Status"><prop n="NightExpPursuitReward"  v="27.5"/></level>
 <level id="24" type="Status"><prop n="NightExpPursuitReward"  v="65.3125"/></level>
 

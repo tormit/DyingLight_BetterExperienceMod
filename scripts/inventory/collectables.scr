@@ -1388,7 +1388,8 @@ sub main()
         RequiredItem("Craft_Electronics", 3);
         NamePrefix("&ModifiedItemName&");
         Elemental(Elemental_ImpactElectricity, 3);
-        Color(Color_Orange);
+        Elemental(Elemental_Burning, 1);
+        Color(Color_Violet);
         CraftplanType("Weapon");
         UniqueSaveID(69);
         HudIcon("blueprint_b");
@@ -1732,7 +1733,7 @@ sub main()
         RequiredItem("Craft_Electronics", 5);
         NamePrefix("&ModifiedItemName&");
         Elemental(Elemental_ImpactElectricity, 3);
-        Elemental(Elemental_ShockElectricity, 2);
+        Elemental(Elemental_Burning, 2);
         Color(Color_Orange);
         CraftplanType("Weapon");
         UniqueSaveID(75);
@@ -2154,7 +2155,7 @@ sub main()
         Price(200);
         Mesh("blueprint.msh");
         Skin("default");
-        RequiredItem("ZZZZ3_Crossbow", 1);
+		BaseItem("ZZZZ3_Crossbow", "", "");
         RequiredItem("ZZZZ3_Component_NutsBolts", 2);
         RequiredItem("ZZZZ3_Component_SteelTubing", 2);
         Color(Color_Green);
@@ -3639,7 +3640,7 @@ sub main()
         Price(200);
         Mesh("blueprint.msh");
         Skin("default");
-        RequiredItem("ZZZZ3_FollowingAlgae", 2);
+        RequiredItem("Craft_ZZZZ3_FollowingAlgae", 2);
         Color(Color_White);
         CraftedItem("Medkit_HealthPackLarge", 1, 3);
         CraftplanType("Utility");

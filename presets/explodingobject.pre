@@ -9,6 +9,15 @@ sub main()
         AddField("m_PhysicsEffectRatio", "1");
         AddField("m_RaySourceOffset", "0 0.5 0");
 
+		// HR Stuff
+        Preset("HR_Carriable_Explosive")
+        {
+			SetField("m_ExplosionDelayTime", "4");
+			SetField("m_BlastDamage", "200");
+			SetField("m_BlastRange", "4.5");
+			SetField("m_PhysicsEffectRatio", "1.05");
+        }
+
         Preset("GasCylinderBig")
         {
 			SetField("m_ExplosionDelayTime", "5");

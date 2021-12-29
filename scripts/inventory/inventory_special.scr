@@ -1,8 +1,47 @@
 import "inventorystuff.scr" 
 sub main() 
 {
-
-Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
+	//Snowball
+	
+	Item("Throwable_Snowball", CategoryType_Throwable)
+    {
+		GameVersion(30);
+        ItemType(ItemType_Grenade);
+        Visibility(true);
+        AmmoCount(5);
+        MaxStackCount(99);
+        Price(0);
+        Mesh("wn_snowball_a.msh");
+        Skin("Default");
+        AnimPrefix("Grenade");
+        PhysicsScript("single_dropped_inventory.phx");
+        HudIcon("weapon_snowball");
+        Damage(1.0);
+        DamageToPhysicsObjects(1.0);
+        DamageRange(0.2);
+        PhysicsDamageMul(1.0);
+        HeadCutProb(0.0);
+        ArmsCutProb(0.0);
+        LegsCutProb(0.0);
+        DamageType(DamageType_Cold);
+		StickToSurfaces(true);
+        DamageDuration(10.0);
+        ThrowImpulseLook(35.0);
+        ThrowImpulseUp(0.0);
+        ExplosionFx("freeze_snowball_sequence.fx");
+		ScheduleExplodeAfterContact(true);
+        ExplosionSound("freezing_bomb_explosion.wav");
+        ExplodeDelay(0.1);
+        ThrowEndSound("empty_fists_right_01.wav");
+        StatsType(StatsType_Explosive);
+        NoiseType("NONE");
+        Color(Color_White);
+        EquipmentSlot(0);
+        AchType(AchType_Grenade);
+        ElementalPower(1.0);
+    }
+	
+	Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
 	{
         GameVersion(8);
         Visibility(true);
@@ -87,6 +126,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         CutTypesGroup(CutTypesGroup_Holes);
         DamageType(DamageType_Bullet);
         Mesh("wn_pistol_a.msh");
+        SkinTag("Weapon_Craft0");
         AnimPrefix("Beretta");
         HudIcon("weapon_pistol");
         ShotTime(0.3);
@@ -285,13 +325,13 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         ThrowFlySound("zombieplayer_spit_flight.wav");
         ExplosionSoundMin(16.0);
         ExplosionSoundVol(2.0);
-        DamageRange(5.0);
+        DamageRange(6.0);
         HeadCutProb(0.0);
         ArmsCutProb(0.0);
         LegsCutProb(0.0);
         ThrowImpulseLook(13.0);
         ThrowImpulseUp(2.0);
-        ExplodeDelay(1.5);        
+        ExplodeDelay(1.0);        
         ThrowFlyFx("camo_spit_trail_sequence.fx");  
         StatsType(StatsType_Explosive);
         LootLevel(4);
@@ -398,7 +438,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         ThrowFlySound("zombieplayer_spit_flight.wav");
         ThrowFlyFx("toxic_spit_trail_sequence.fx");
         SplashRadiusMin(1.0);
-        SplashRadiusMax(4.0);
+        SplashRadiusMax(6.0);
         MotionTrailFx("hunter_spit_toxic_motion_trail.fx");
         SplashNumPositions(10);
         SplashSpacingType("EvenAngles");
@@ -408,7 +448,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         SplashEmitterFadeOutTime(1.0);
         SplashEmitterDamageType(DamageType_ToxicSpit);
         SplashEmitterDamageDuration(0.5);
-        SplashEmitterHealthPercentDamagePerSecond(0.27);
+        SplashEmitterHealthPercentDamagePerSecond(0.3);
         SplashEmitterIsFXSequence(true);
         SplashEmitterScale([2.0,1.0,2.0]);
         SplashEmitterWallFx("toxic_spit_floor");
@@ -1114,7 +1154,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         ExplosiveHudColor([0.1, 0.2, 0.5]);
         Damage(0.0);
         ScheduleExplodeAfterContact(true);        
-        DamageDuration(12);
+        DamageDuration(18);
         DamagerTakesNoDamage(true);
         TakeDamageThreshold(100.0);        
         PhysicsDamageMul(1.0);
@@ -1131,7 +1171,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         LegsCutProb(0.0);
         ThrowImpulseLook(13.0);
         ThrowImpulseUp(2.0);
-        ExplodeDelay(1.5);       
+        ExplodeDelay(1.0);       
         StatsType(StatsType_Explosive);
         LootLevel(4);
         LootType(LootType_Throwable);
@@ -1219,7 +1259,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         ExplosiveHudColor([0.1, 0.2, 0.5]);
         Damage(0.0);
         ScheduleExplodeAfterContact(true);        
-        DamageDuration(18);
+        DamageDuration(25);
         DamagerTakesNoDamage(true);
         TakeDamageThreshold(100.0);        
         PhysicsDamageMul(1.0);
@@ -1236,7 +1276,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         LegsCutProb(0.0);
         ThrowImpulseLook(13.0);
         ThrowImpulseUp(2.0);
-        ExplodeDelay(1.5);       
+        ExplodeDelay(1.0);       
         StatsType(StatsType_Explosive);
         LootLevel(4);
         LootType(LootType_Throwable);
@@ -1271,7 +1311,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         HudIcon("grenade");
         Damage(0.0);      
         DamagerTakesNoDamage(true);
-        DamageDuration(15);
+        DamageDuration(18);
         ThrowFlySound("freeze_loop.wav");
         TakeDamageThreshold(100.0);     
         ScheduleExplodeAfterContact(true);        
@@ -1288,7 +1328,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         LegsCutProb(0.0);
         ThrowImpulseLook(13.0);
         ThrowImpulseUp(2.0);
-        ExplodeDelay(1.5);        
+        ExplodeDelay(1.0);        
         ThrowFlyFx("btz_spit_fly_green_sequence.fx");  
         StatsType(StatsType_Explosive);
         LootLevel(4);
@@ -1395,7 +1435,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         LegsCutProb(0.0);
         ThrowImpulseLook(13.0);
         ThrowImpulseUp(2.0);
-        ExplodeDelay(1.5);        
+        ExplodeDelay(1.0);        
         ThrowFlyFx("btz_spit_fly_green_sequence.fx");  
         StatsType(StatsType_Explosive);
         LootLevel(4);
@@ -1749,7 +1789,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         Visibility(true);
         MaxStackCount(1);
         Price(5);
-        Mesh("wn_throwing_knife_a.msh");
+        Mesh("wn_throwing_axe_b.msh");
         Skin("default");
         AnimPrefix("Decoy");
         PhysicsScript("single_dropped_inventory.phx");
@@ -1777,7 +1817,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         Visibility(true);
         MaxStackCount(1);
         Price(5);
-        Mesh("wn_throwing_knife_a.msh");
+        Mesh("wn_throwing_axe_b.msh");
         Skin("default");
         AnimPrefix("Decoy");
         PhysicsScript("single_dropped_inventory.phx");
@@ -1805,7 +1845,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         Visibility(true);
         MaxStackCount(1);
         Price(5);
-        Mesh("wn_throwing_knife_a.msh");
+        Mesh("wn_throwing_axe_a.msh");
         Skin("default");
         AnimPrefix("Decoy");
         PhysicsScript("single_dropped_inventory.phx");
@@ -1878,7 +1918,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         LegsCutProb(0.0);
         ThrowImpulseLook(10.0);
         ThrowImpulseUp(2.0);
-        ExplodeDelay(10.0); // burn duration
+        ExplodeDelay(15.0); // burn duration
         ThrowBeginSound("");
         ThrowEndSound("");
         StatsType(StatsType_Explosive);
@@ -1923,7 +1963,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         LegsCutProb(0.0);
         ThrowImpulseLook(10.0);
         ThrowImpulseUp(2.0);
-        ExplodeDelay(15.0); // burn duration
+        ExplodeDelay(25.0); // burn duration
         ThrowBeginSound("");
         ThrowEndSound("");
         StatsType(StatsType_Explosive);
@@ -2966,6 +3006,45 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         ExplosionSound("armored_heavy_stone_explosion.wav");
         ExplosionFx("armored_stone_hit_sequence.fx");
         ExplosionDirFx("armored_stone_hit_dir_sequence.fx");
+    }
+    
+    Item("Throwable_Rock_Noisy", CategoryType_Throwable)
+    {
+        IdNameOld("Throwable_Granade");
+        Name("Rock");
+        Description("&Throwable_Grenade_D&");
+        ItemType(ItemType_ThrowableRock);
+        Visibility(true);
+        MaxStackCount(1);
+        Price(600);
+        Mesh("armored_rock.msh");
+        Skin("default");
+        AnimPrefix("Grenade");
+        PhysicsScript("single_dropped_inventory.phx");
+        HudIcon("grenade");
+        Damage(2.50);
+        PhysicsDamageMul(1.0);
+        DamageType(DamageType_Blast);
+        DamageRange(1.5);
+        TakeDamageThreshold(100.0);
+        HeadCutProb(1.0);
+        ArmsCutProb(1.0);
+        LegsCutProb(1.0);
+        ThrowImpulseLook(2100.0);
+        ThrowImpulseUp(400.0);
+        ExplodeDelay(5.0);
+        ExplodeOnCollision(true);
+        ThrowEndSound("");
+        StatsType(StatsType_Explosive);
+        LootLevel(4);
+        LootType(LootType_Throwable);
+        Color(Color_White);
+        AchType(AchType_Grenade);
+        NoiseType("EXPLOSION");
+        ExplosionSound("armored_heavy_stone_explosion.wav");
+        ExplosionFx("armored_stone_hit_sequence.fx");
+        ExplosionDirFx("armored_stone_hit_dir_sequence.fx");
+		GameVersion(23);
     }
     
     Item("Throwable_Rock_Heavy", CategoryType_Throwable)
@@ -4239,8 +4318,70 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         HitBlastRange(2.4);
         TransformInto("Melee_RebarAGen");
     }
+	
+	//ZOMBIE HUNT EVENT, GOON WEAPON
+	
+	Item("Melee_ThugHammerBigMedium_ZombieHunt", CategoryType_Melee)
+    {
+        Name("&Melee_BigHammer_Tactical_N&");
+        Visibility(true);
+        ItemType(ItemType_TwoHandedHeavyStick);
+        PhysicsScript("single_dropped_inventory_rebar.phx");
+        UpgradeLevel(0);
+        Condition(125);
+        Damage(15.0);
+        Force(1000.0);
+        CriticalProb(0.0);
+        CriticalDamage(2.0);
+        DamageRange(280.0 * 0.01);
+        DamageToPhysicsObjects(70.0);
+        PhysicsDamageMul(1.0);
+        StaminaUsage(0.0);
+        ConfusionProb(0.5);
+        HeadSmashProb(1.0);
+        HeadCutProb(0.0);
+        ArmsCutProb(0.0);
+        LegsCutProb(0.0);
+        DamageType(DamageType_Blunt);
+        Flags(1);
+		InventoryMesh("wn_hammer_big_f_goon_hq.msh");
+        Mesh("wn_hammer_big_f_goon_hq.msh");
+        SkinTag("Default");
+        AnimPrefix("Stick2Heavy");
+        HudIcon("weapon_hammer_big_f");
+        MinHitSeverity(HitSeverity_Heavy);
+        MaxHitSeverity(HitSeverity_Heavy);
+        HorizontalAttackDamageMul(3.0);
+        TwoHanded(true);
+        DestroySound("break_wooden_weapon_00.wav");
+        AiHitSound("rebar_goon");
+        use HitEffects_Default();
+        use PickupSounds_Default();
+        DamageSize(15.0);
+        StatsType(StatsType_Blunt);
+        FF_EffectName("Hit_Stick2HeavyBlunt");
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Reparable(true);
+        Color(Color_White);
+        AchType(AchType_BigHammer);
+        CraftingSlots(2);
+        RestrictionFlags(0);
+        RagdollBehaviorPrefix("Stick2HeavyBlunt");
+        HandInertiaFactor(1.8);
+        HandInertiaRotFactor([0.5, 1.0, 4.0]);
+        Price(3894);
+        GenType(GenType_MeleeWeapon);
+        OwnerType(OwnerType_AI);
+        //CanBeUsedByPlayer(true);
+        HitBlastRange(2.4);
+        TransformInto("ZZZZ_Melee_BigHammer_Tactical_Gold");
+		GameVersion(39);
+    }
 
-     Item("Melee_TutorialPlayerBaseball", CategoryType_Melee)
+    Item("Melee_TutorialPlayerBaseball", CategoryType_Melee)
     {
         Name("&Melee_TutorialPlayerBaseball&");
         Description("&Melee_TutorialPlayerBaseball&");
@@ -6165,7 +6306,647 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         HudIcon("docket_icon");
         DocketType("G20");
     }
-    
+	
+	Item("Menu_DocketG21", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG21_N&");
+        Description("&Menu_DocketG21_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G21");
+    }
+	
+	Item("Menu_DocketG22", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG22_N&");
+        Description("&Menu_DocketG22_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G22");
+    }
+	
+	Item("Menu_DocketG23", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG23_N&");
+        Description("&Menu_DocketG23_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G23");
+    }
+	
+	Item("Menu_DocketG24", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG24_N&");
+        Description("&Menu_DocketG24_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G24");
+    }
+	
+	Item("Menu_DocketG25", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG25_N&");
+        Description("&Menu_DocketG25_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G25");
+    }
+	
+	Item("Menu_DocketG26", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG26_N&");
+        Description("&Menu_DocketG26_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G26");
+    }
+	
+	Item("Menu_DocketG27", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG27_N&");
+        Description("&Menu_DocketG27_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G27");
+    }
+	
+	Item("Menu_DocketG28", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG28_N&");
+        Description("&Menu_DocketG28_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G28");
+    }
+	
+	Item("Menu_DocketG29", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG29_N&");
+        Description("&Menu_DocketG29_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G29");
+    }
+	
+	Item("Menu_DocketG30", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG30_N&");
+        Description("&Menu_DocketG30_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G30");
+    }
+	
+	Item("Menu_DocketG31", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG31_N&");
+        Description("&Menu_DocketG31_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G31");
+    }
+	
+	Item("Menu_DocketG32", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG32_N&");
+        Description("&Menu_DocketG32_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G32");
+    }
+	
+	Item("Menu_DocketG33", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG33_N&");
+        Description("&Menu_DocketG33_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G33");
+    }
+	
+	Item("Menu_DocketG34", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG34_N&");
+        Description("&Menu_DocketG34_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G34");
+    }
+	
+	Item("Menu_DocketG35", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG35_N&");
+        Description("&Menu_DocketG35_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G35");
+    }
+	
+	Item("Menu_DocketG36", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG36_N&");
+        Description("&Menu_DocketG36_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G36");
+    }
+	
+	Item("Menu_DocketG37", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG37_N&");
+        Description("&Menu_DocketG37_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G37");
+    }
+	
+	Item("Menu_DocketG38", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG38_N&");
+        Description("&Menu_DocketG38_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G38");
+    }
+	
+	Item("Menu_DocketG39", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG39_N&");
+        Description("&Menu_DocketG39_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G39");
+    }
+	
+	Item("Menu_DocketG40", CategoryType_Voucher)
+    {
+        GameVersion(27);
+        Name("&Menu_DocketG40_N&");
+        Description("&Menu_DocketG40_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G40");
+    }
+	
+	Item("Menu_DocketG41", CategoryType_Voucher)
+    {
+        GameVersion(38);
+        Name("&Menu_DocketG41_N&");
+        Description("&Menu_DocketG41_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G41");
+    }
+    	
+	Item("Menu_DocketG42", CategoryType_Voucher)
+    {
+        GameVersion(38);
+        Name("&Menu_DocketG42_N&");
+        Description("&Menu_DocketG42_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G42");
+    }
+	
+	Item("Menu_DocketG43", CategoryType_Voucher)
+    {
+        GameVersion(38);
+        Name("&Menu_DocketG43_N&");
+        Description("&Menu_DocketG43_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G43");
+    }
+	
+	Item("Menu_DocketG44", CategoryType_Voucher)
+    {
+        GameVersion(38);
+        Name("&Menu_DocketG44_N&");
+        Description("&Menu_DocketG44_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G44");
+    }
+	
+	Item("Menu_DocketG45", CategoryType_Voucher)
+    {
+        GameVersion(38);
+        Name("&Menu_DocketG45_N&");
+        Description("&Menu_DocketG45_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G45");
+    }
+	
+	Item("Menu_DocketG46", CategoryType_Voucher)
+    {
+        GameVersion(38);
+        Name("&Menu_DocketG46_N&");
+        Description("&Menu_DocketG46_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G46");
+    }
+	
+	Item("Menu_DocketG47", CategoryType_Voucher)
+    {
+        GameVersion(38);
+        Name("&Menu_DocketG47_N&");
+        Description("&Menu_DocketG47_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G47");
+    }
+	
+	Item("Menu_DocketG48", CategoryType_Voucher)
+    {
+        GameVersion(38);
+        Name("&Menu_DocketG48_N&");
+        Description("&Menu_DocketG48_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G48");
+    }
+	
+	Item("Menu_DocketG49", CategoryType_Voucher)
+    {
+        GameVersion(38);
+        Name("&Menu_DocketG49_N&");
+        Description("&Menu_DocketG49_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G49");
+    }
+	
+	Item("Menu_DocketG50", CategoryType_Voucher)
+    {
+        GameVersion(38);
+        Name("&Menu_DocketG50_N&");
+        Description("&Menu_DocketG50_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G50");
+    }
+	
+	Item("Menu_DocketG51", CategoryType_Voucher)
+    {
+        GameVersion(46);
+        Name("&Menu_DocketG51_N&");
+        Description("&Menu_DocketG51_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G51");
+    }
+    	
+	Item("Menu_DocketG52", CategoryType_Voucher)
+    {
+        GameVersion(46);
+        Name("&Menu_DocketG52_N&");
+        Description("&Menu_DocketG52_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G52");
+    }
+	
+	Item("Menu_DocketG53", CategoryType_Voucher)
+    {
+        GameVersion(46);
+        Name("&Menu_DocketG53_N&");
+        Description("&Menu_DocketG53_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G53");
+    }
+	
+	Item("Menu_DocketG54", CategoryType_Voucher)
+    {
+        GameVersion(46);
+        Name("&Menu_DocketG54_N&");
+        Description("&Menu_DocketG54_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G54");
+    }
+	
+	Item("Menu_DocketG55", CategoryType_Voucher)
+    {
+        GameVersion(46);
+        Name("&Menu_DocketG55_N&");
+        Description("&Menu_DocketG55_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G55");
+    }
+	
+	Item("Menu_DocketG56", CategoryType_Voucher)
+    {
+        GameVersion(46);
+        Name("&Menu_DocketG56_N&");
+        Description("&Menu_DocketG56_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G56");
+    }
+	
+	Item("Menu_DocketG57", CategoryType_Voucher)
+    {
+        GameVersion(46);
+        Name("&Menu_DocketG57_N&");
+        Description("&Menu_DocketG57_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G57");
+    }
+	
+	Item("Menu_DocketG58", CategoryType_Voucher)
+    {
+        GameVersion(46);
+        Name("&Menu_DocketG58_N&");
+        Description("&Menu_DocketG58_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G58");
+    }
+	
+	Item("Menu_DocketG59", CategoryType_Voucher)
+    {
+        GameVersion(46);
+        Name("&Menu_DocketG59_N&");
+        Description("&Menu_DocketG59_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G59");
+    }
+	
+	Item("Menu_DocketG60", CategoryType_Voucher)
+    {
+        GameVersion(46);
+        Name("&Menu_DocketG60_N&");
+        Description("&Menu_DocketG60_D&");
+        ItemType(ItemType_Docket);
+        Visibility(false);
+        Price(0);
+        Mesh("collectable_wallet.msh");
+        Skin("DOCKET");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+        HudIcon("docket_icon");
+        DocketType("G60");
+    }
+	
     Item("Menu_DocketH01", CategoryType_Voucher)
     {
         GameVersion(11);
@@ -6595,8 +7376,8 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         UsageType(UsageType_Normal);
         DefaultBulletId("ZZZZ3_Bullet_Bolt");
         AmmoType(AmmoType_Bolt);
-        BulletSpeed(70.0);
-        BulletGravityFactor(0.1);
+        BulletSpeed(80.0);
+        BulletGravityFactor(0.05);
         Visibility(true);
         ItemType(ItemType_Crossbow);
         PhysicsScript("single_dropped_inventory.phx");
@@ -6606,21 +7387,21 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         CriticalDamage(1.0);
 		DuckInertiaFactor(0.1);
         DamageHeadMult(10.0);
-        DamageToPhysicsObjects(17.5);
+        DamageToPhysicsObjects(20.0);
         FirePointRange(0, 10.0);
-        FirePointDamage(0, 360.0);
-        FirePointForce(0, 90.0);
+        FirePointDamage(0, 480.0);
+        FirePointForce(0, 100.0);
         FirePointPhysicsDamage(0, 1.5);
         FirePointRange(1, 25.0);
-        FirePointDamage(1, 300.0);
-        FirePointForce(1, 80.0);
+        FirePointDamage(1, 480.0);
+        FirePointForce(1, 90.0);
         FirePointPhysicsDamage(1, 1.3);
         FirePointRange(2, 50.0);
-        FirePointDamage(2, 240.0);
-        FirePointForce(2, 60.0);
+        FirePointDamage(2, 300.0);
+        FirePointForce(2, 70.0);
         FirePointPhysicsDamage(2, 1.1);
         Mesh("dlc_wn_crossbow_a.msh");
-		Skin("valentine");
+		Skin("valentine");        
 		BarrelHelperName("bolt_pose");
         AnimPrefix("crossbow");
         HudIcon("weapon_crossbow_a");        
@@ -6645,32 +7426,30 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         ClipReload(true);
         BulletsPerShot(1);
         ShootAnimFactor(1.0);
-        ShootStatAccuracy(95.0);
         AmmoCount(1);
         Silenced(true);
         EnablePenetration(false);
         MoveAcurancyLoseFactor(0.2);
 		DodgeAccuracyLoseFactor(5.0);
+        ShootStatAccuracy(100.0);
         AimFov(1.6);
-        ShotSound("crossbow_shot_XX.wav");
-        EmptySound("crossbow_empty_XX.wav");
-        BaseSoundPrefix("crossbow");
+        ShotSound("crossbow_upgraded_shot_XX.wav");
+        EmptySound("crossbow_upgraded_empty_XX.wav");
+        BaseSoundPrefix("crossbow_Upgraded");
         HandOffset(HandModification_Normal, [0.0,-0.01,-0.11]);
         HandOffset(HandModification_Custom, [0.0,-0.01,-0.11]);
-        ShootMinAngle(0.015);
+        ShootMinAngle(0.0);
     }
     
     Item("ZZZZ3_Valentine_Crossbow", CategoryType_Firearm)
     {
         GameVersion(10);
         UsageType(UsageType_Aim);
-        BulletSpeed(100.0);
+        BulletSpeed(120.0);
 		SwayMaxAngle(0.0);
         BulletGravityFactor(0.1);
-        HandOffset(HandModification_Normal, [0.0, 0.0, 0.0]);
+        HandOffset(HandModification_Normal, [0.0, -0.0014, 0.0]);
         HandOffset(HandModification_Custom, [0.0, 0.0, 0.0]);
-        HandRot(HandModification_Normal, [2.95, 0.006, 0.0]);
-        ShootMinAngle(0.0);
     }
 	
 	
@@ -6682,7 +7461,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         ItemType(ItemType_Bullet);
         AmmoType(AmmoType_SubMachine);
         
-        MaxAmmoCount(1000);
+        MaxAmmoCount(999);
         
         Mesh("loot_ok_ammo_short.msh");
         HudIcon("ammo_pistol");
@@ -6761,6 +7540,7 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
     Item("ZZZZ3_Ammo_Crossbow", CategoryType_Ammo)
     {
         GameVersion(8);
+        Name("&Bullet_Bolt_N&");
         ItemType(ItemType_Ammo);
         Visibility(true);
         BulletId("ZZZZ3_Bullet_Bolt");
@@ -7170,6 +7950,63 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         FF_Duration(0.4);
         FF_FadeOut(0.2);
         Color(Color_White);
+    }
+
+	Item("Melee_fighter_armored_long_sword", CategoryType_Melee)
+    {
+        Visibility(true);
+        ItemType(ItemType_Stick);
+        WeaponBuildType(WeaponBuildType_Metal);
+        PhysicsScript("single_dropped_inventory.phx");
+        Condition(54);
+        Damage(25.0);
+        CriticalProb(0.0);
+        CriticalDamage(0.0);
+        DamageRange(210.0 *0.01);
+        Force(0.0);
+        PhysicsDamage(25.0);
+        StaminaUsage(0.0);
+        SwingSpeed(0.9);
+        CutTypesGroup(CutTypesGroup_Sharp);
+        HeadSmashProb(0.0);
+        HeadCutProb(1.0);
+        ArmsCutProb(1.0);
+        LegsCutProb(1.0);
+        DamageType(DamageType_Cut);
+        RepairPrice(157);
+        UpgradePrice(1147);
+        Mesh("wn_long_sword_a.msh");
+        SkinTag("Weapon_Craft0");
+        AnimPrefix("Stick");
+        HudIcon("machete_a");
+        MinDamageAngle(30.0);
+        MaxDamageAngle(10.0);
+        MinDamageMult(1.0);
+        MaxHitSeverity(HitSeverity_Heavy);
+        MinHitSeverity(HitSeverity_Medium);
+        HorizontalAttackDamageMul(1.0);
+        TwoHanded(false);
+        HolderElement("r_thigh");
+        HolderOffset([0.0,10.0,10.0] *[0.01, 0.01, 0.01]);
+        HolderAngle([0.0,0.0,-90.0]);
+        DestroySound("break_metal_weapon_00.wav");
+        AiHitSound("Machete");
+        use HitEffects_Sharp();
+        BloodSplatFactor(0.25);
+        use PickupSounds_Default();
+        DamageSize(10.0);
+        StatsType(StatsType_Cut);
+        LootType(LootType_Sharp);
+        FF_EffectName("Hit_Sharp");
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        OwnerType(OwnerType_AI);
+        Reparable(true);
+        Color(Color_Violet);
+        TransformInto("Melee_LongSwordAGen");
+		GameVersion(30);
     }
 	
 	Item("ZZZZ3_Mine", CategoryType_Throwable)
@@ -7798,6 +8635,543 @@ Item("ZZZZZ_Melee_CEP", CategoryType_Melee)
         Visibility(true);        
         Mesh("cotillion.msh");
         Skin("yellow");             
+    }
+	
+	Item("ZZZZ_Bow_Composite_Lunar", CategoryType_Firearm)
+    {
+        Name("&Melee_Bow_Composite_LunarN&");
+        Description("&Melee_Bow_Composite_LunarD&");
+        DamageType(DamageType_Arrow);
+        UsageType(UsageType_Normal);
+        DefaultBulletId("ZZZZ_Bullet_Arrow");
+        AmmoType(AmmoType_Arrow);
+        BulletSpeed(15.5);
+        BulletGravityFactor(0.25);
+        Visibility(true);
+        ItemType(ItemType_Bow);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(-1.0);
+        CriticalProb(0.0);
+		DuckInertiaFactor(0.1);
+        DamageHeadMult(5.0);
+        DamageToPhysicsObjects(17.5);
+        FirePointRange(0,5000.0 *0.01);
+        FirePointDamage(0,380.0);
+        FirePointForce(0,25.0);        
+        StaminaUsage(0.1);
+        SwingSpeed(1.3);
+        Mesh("wn_bow_composite_a.msh");
+		BarrelHelperName("arrow_pose");
+        AnimPrefix("Bow");
+        HudIcon("weapon_bow_recurve");        
+        TwoHanded(true);        
+        ThrustAngle(30.0);
+        DestroySound("break_wooden_weapon_00.wav");
+        AiHitSound("bow");
+        use HitEffects_Sharp();
+        BloodSplatFactor(0.25);
+        use PickupSounds_Default();
+        DamageSize(15.0);
+        StatsType(StatsType_Cut);
+        LootLevel(8);
+        LootType(LootType_Sharp);
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Color(Color_Platinum);
+        AchType(AchType_BigAxe);
+        NameGender(1);
+		SwayMaxAngle(0.02);
+		JumpInertiaFactor(0.1);
+		ShotTime(0.5);
+		GameVersion(22);
+		Skin("PaintjobLunar");    
+		CraftingSlots(1);		
+    }
+    
+    Item("ZZZZ_Bow_Composite_Lunar", CategoryType_Firearm)
+    {
+        UsageType(UsageType_Aim);
+        BulletSpeed(100.0);
+		SwayMaxAngle(0.01);
+        BulletGravityFactor(0.25);
+		GameVersion(22);
+    }
+	
+	Item("Crossbow_DeadEye", CategoryType_Firearm)
+    {
+        GameVersion(28);
+        Name("&Crossbow_DeadEye_N&");
+        Description("&Crossbow_DeadEye_D&");
+        DamageType(DamageType_Arrow);
+        UsageType(UsageType_Normal);
+        DefaultBulletId("ZZZZ3_Bullet_Bolt");
+        AmmoType(AmmoType_Bolt);
+        BulletSpeed(80.0);
+        BulletGravityFactor(0.05);
+        Visibility(true);
+        ItemType(ItemType_Crossbow);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(-1.0);
+        CriticalProb(0.0);
+        CriticalDamage(1.0);
+		DuckInertiaFactor(0.1);
+        DamageHeadMult(10.0);
+        DamageToPhysicsObjects(20.0);
+        FirePointRange(0, 10.0);
+        FirePointDamage(0, 420.0);
+        FirePointForce(0, 100.0);
+        FirePointPhysicsDamage(0, 1.5);
+        FirePointRange(1, 25.0);
+        FirePointDamage(1, 420.0);
+        FirePointForce(1, 90.0);
+        FirePointPhysicsDamage(1, 1.3);
+        FirePointRange(2, 50.0);
+        FirePointDamage(2, 240.0);
+        FirePointForce(2, 70.0);
+        FirePointPhysicsDamage(2, 1.1);
+        Mesh("dlc_wn_crossbow_a.msh");        
+		BarrelHelperName("bolt_pose");
+        AnimPrefix("crossbow");
+        HudIcon("weapon_crossbow_a");        
+        TwoHanded(true);        
+        DestroySound("break_wooden_weapon_00.wav");
+        AiHitSound("crossbow");
+        use HitEffects_Sharp();
+        BloodSplatFactor(0.25);
+        use PickupSounds_Default();
+        DamageSize(15.0);
+        StatsType(StatsType_Cut);
+        LootLevel(8);
+        LootType(LootType_Sharp);
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Color(Color_Orange);
+		SwayMaxAngle(0.0);
+		JumpInertiaFactor(0.1);
+        ShotTime(0.20);
+        ClipReload(true);
+        BulletsPerShot(1);
+        ShootAnimFactor(1.0);
+        AmmoCount(1);
+        Silenced(true);
+        EnablePenetration(false);
+        MoveAcurancyLoseFactor(0.2);
+		DodgeAccuracyLoseFactor(5.0);
+        ShootStatAccuracy(95.0);
+        AimFov(1.6);
+        ShotSound("crossbow_upgraded_shot_XX.wav");
+        EmptySound("crossbow_upgraded_empty_XX.wav");
+        BaseSoundPrefix("crossbow_Upgraded");
+        HandOffset(HandModification_Normal, [0.0,-0.01,-0.11]);
+        HandOffset(HandModification_Custom, [0.0,-0.01,-0.11]);
+        ShootMinAngle(0.0);
+		ReloadAnimSpeed(1.2);
+		Skin("Deadeye");
+    }
+    
+    Item("Crossbow_DeadEye", CategoryType_Firearm)
+    {
+        GameVersion(28);
+        UsageType(UsageType_Aim);
+        BulletSpeed(120.0);
+		SwayMaxAngle(0.0);
+        BulletGravityFactor(0.1);
+        HandOffset(HandModification_Normal, [0.0, -0.0014, 0.0]);
+        HandOffset(HandModification_Custom, [0.0, 0.0, 0.0]);
+    }
+	
+	Item("Bow_Composite_DeadEye", CategoryType_Firearm)
+    {
+        Name("&Bow_Composite_DeadEye_n&");
+        Description("&Bow_Composite_DeadEye_d&");
+        DamageType(DamageType_Arrow);
+        UsageType(UsageType_Normal);
+        DefaultBulletId("ZZZZ_Bullet_Arrow");
+        AmmoType(AmmoType_Arrow);
+        BulletSpeed(15.5);
+        BulletGravityFactor(0.25);
+        Visibility(true);
+        ItemType(ItemType_Bow);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(-1.0);
+        CriticalProb(0.0);
+		DuckInertiaFactor(0.1);
+        DamageHeadMult(5.0);
+        DamageToPhysicsObjects(17.5);
+        FirePointRange(0,5000.0 *0.01);
+        FirePointDamage(0,320.0);
+        FirePointForce(0,25.0);        
+        StaminaUsage(0.1);
+        SwingSpeed(1.3);
+        Mesh("wn_bow_composite_a.msh");
+		BarrelHelperName("arrow_pose");
+        AnimPrefix("Bow");
+        HudIcon("weapon_bow_recurve");        
+        TwoHanded(true);        
+        ThrustAngle(30.0);
+        DestroySound("break_wooden_weapon_00.wav");
+        AiHitSound("bow");
+        use HitEffects_Sharp();
+        BloodSplatFactor(0.25);
+        use PickupSounds_Default();
+        DamageSize(15.0);
+        StatsType(StatsType_Cut);
+        LootLevel(8);
+        LootType(LootType_Sharp);
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Color(Color_Orange);
+        AchType(AchType_BigAxe);
+        NameGender(1);
+		SwayMaxAngle(0.02);
+		JumpInertiaFactor(0.1);
+		ShotTime(0.4);
+		GameVersion(28);
+		Skin("Deadeye");    
+		CraftingSlots(0);	
+		ReloadAnimSpeed(1.2);		
+    }
+    
+    Item("Bow_Composite_DeadEye", CategoryType_Firearm)
+    {
+        UsageType(UsageType_Aim);
+        BulletSpeed(100.0);
+		SwayMaxAngle(0.01);
+        BulletGravityFactor(0.25);
+		GameVersion(28);
+    }
+
+    Item("Demolisher_GasTank", CategoryType_Throwable)
+    {
+        IdNameOld("Demolisher_GasTank");
+        Name("Demolisher_GasTank");
+        Description("&Throwable_Grenade_D&");
+        ItemType(ItemType_Grenade);
+        Visibility(true);
+        Mesh("gas_cylinder_a.msh");
+        Skin("default");        
+        PhysicsScript("single_dropped_inventory.phx");
+        HudIcon("grenade");
+        
+        Damage(1.0);
+        Force(5000.0);
+        DamageToPhysicsObjects(1.0);
+        DamageRange(10);
+        PhysicsDamageMul(1.0);
+        HeadCutProb(0.0);
+        ArmsCutProb(0.0);
+        LegsCutProb(0.0);
+        DamageType(DamageType_Ram);
+        DamageDuration(100.0);
+        ThrowImpulseLook(13.0);
+        ThrowImpulseUp(2.0);
+        ExplosionFx("molotov_coctail_explosion_sequence.fx");
+        ExplosionSound("freezing_bomb_explosion.wav");
+        ExplodeDelay(0.5);
+        ThrowEndSound("throwing.wav");
+        StatsType(StatsType_Explosive);
+        NoiseType("EXPLOSION");
+        Color(Color_Green);
+        EquipmentSlot(0);
+        AchType(AchType_Grenade);
+        ElementalPower(0.1);
+        Condition(1);
+        
+        BurnOnDestroyAttached(true);
+        GameVersion(28);
+    }
+
+	Item("Demolisher_GasMask", CategoryType_Throwable)
+    {        
+        ItemType(ItemType_Fists);
+        Visibility(true);        
+        Mesh("gas_mask.msh");
+        Skin("default");             
+        DestroySound("blunt_metal_00.wav");        
+        Condition(1000);
+        DetachFromParentProb(1.0, 100.0);
+		GameVersion(28);
+    }
+	
+	Item("Magic_Hat", CategoryType_Throwable)
+    {        
+        ItemType(ItemType_Fists);
+        Visibility(true);        
+        Mesh("magic_hat.msh");
+        Skin("halloween");             
+        DestroySound("blunt_metal_00.wav");
+        Condition(1);
+		GameVersion(29);
+    }
+	
+	Item("Pumpkin_Hat", CategoryType_Throwable)
+    {        
+        ItemType(ItemType_Fists);
+        Visibility(true);        
+        Mesh("pumpkin_hat.msh");
+        Skin("default");             
+        DestroySound("blunt_metal_00.wav");
+        Condition(10000);     
+		GameVersion(29);
+    }
+
+	Item("Ghost_Mask", CategoryType_Throwable)
+    {        
+        ItemType(ItemType_Fists);
+        Visibility(true);        
+        Mesh("headcover_ghost_mask.msh");
+        Skin("Default");             
+        DestroySound("blunt_metal_00.wav");
+        Condition(1);        
+		GameVersion(29);
+    }
+
+	Item("Magic_Hat_Women", CategoryType_Throwable)
+    {        
+        ItemType(ItemType_Fists);
+        Visibility(true);        
+        Mesh("magic_hat.msh");
+        Skin("halloween");             
+        DestroySound("blunt_metal_00.wav");
+        Condition(10);
+		GameVersion(29);
+    }
+
+	Item("Medieval_Helmet", CategoryType_Throwable)
+    {
+        ItemType(ItemType_Fists);
+        Visibility(true);        
+        Mesh("chiv_bucket.msh");
+        Skin("Default");             
+        DestroySound("blunt_metal_00.wav");
+        Condition(10);   
+		GameVersion(30);
+    }
+	
+	Item("Medieval_Helmet_Women", CategoryType_Throwable)
+    {
+        ItemType(ItemType_Fists);
+        Visibility(true);        
+        Mesh("chiv_bucket.msh");
+        Skin("Default");             
+        DestroySound("blunt_metal_00.wav");
+        Condition(10);   
+		GameVersion(30);
+    }
+
+	Item("Knight_Chiv_Helmet", CategoryType_Throwable)
+    {
+        ItemType(ItemType_Fists);
+        Visibility(true);        
+        Mesh("chivalry_helmet.msh");
+        Skin("Default");             
+        DestroySound("blunt_metal_00.wav");
+        Condition(10000);   
+		GameVersion(30);
+    }
+    
+    Item("Unturned_box", CategoryType_Throwable)
+    {
+        ItemType(ItemType_Fists);
+        Visibility(true);        
+        Mesh("unturnedhead_zombie.msh");
+        Skin("Default");             
+        DestroySound("blunt_metal_00.wav");
+        Condition(50);   
+		GameVersion(33);
+    }
+
+    Item("Unturned_box_biter_m", CategoryType_Throwable)
+    {
+        ItemType(ItemType_Fists);
+        Visibility(true);
+        Mesh("unturnedhead_zombie.msh");
+        Skin("Default");
+        DestroySound("blunt_metal_00.wav");
+        Condition(50);
+        GameVersion(33);
+    }
+
+    Item("Unturned_box_biter_w", CategoryType_Throwable)
+    {
+        ItemType(ItemType_Fists);
+        Visibility(true);
+        Mesh("unturnedhead_zombie.msh");
+        Skin("Default");
+        DestroySound("blunt_metal_00.wav");
+        Condition(50);
+        GameVersion(33);
+    }
+    
+    Item("Rust_bucket_biter_m", CategoryType_Throwable)
+    {
+        ItemType(ItemType_Fists);
+        Visibility(true);
+        Mesh("bucket_rust.msh");
+        Skin("Default");
+        DestroySound("blunt_metal_00.wav");
+        Condition(50);
+        GameVersion(41);
+    }
+
+    Item("Rust_bucket_biter_w", CategoryType_Throwable)
+    {
+        ItemType(ItemType_Fists);
+        Visibility(true);
+        Mesh("bucket_rust.msh");
+        Skin("Default");
+        DestroySound("blunt_metal_00.wav");
+        Condition(50);
+        GameVersion(41);
+    }
+
+    Item("Skeleton_Shield", CategoryType_Throwable)
+    {
+        ItemType(ItemType_Shield);
+        Visibility(true);
+        Mesh("wn_shield_c.msh");//wn_shield_viking_a
+        Skin("Hellraid_skeletons");
+        DestroySound("blunt_metal_00.wav");
+        Condition(900000);
+        GameVersion(41);
+    }
+
+	Item("Melee_ThugDoubleAxeBigMedium", CategoryType_Melee)
+    {
+        Name("&Melee_ThugDoubleAxeBigMedium&");
+        Description("&Melee_ThugDoubleAxeBigMedium&");
+        Visibility(true);
+        ItemType(ItemType_TwoHandedHeavyStick);
+        PhysicsScript("single_dropped_inventory_rebar.phx");
+        UpgradeLevel(0);
+        Condition(125);
+        Damage(15.0);
+        Force(1000.0);
+        CriticalProb(0.0);
+        CriticalDamage(2.0);
+        DamageRange(280.0 * 0.01);
+        DamageToPhysicsObjects(70.0);
+        PhysicsDamageMul(1.0);
+        StaminaUsage(0.0);
+        ConfusionProb(0.5);
+        HeadSmashProb(1.0);
+        HeadCutProb(0.0);
+        ArmsCutProb(0.0);
+        LegsCutProb(0.0);
+        DamageType(DamageType_Blunt);
+        Flags(1);
+		InventoryMesh("wn_axe_b.msh");
+        Mesh("wn_axe_b.msh");
+        SkinTag("Default");
+        AnimPrefix("Stick2Heavy");
+        HudIcon("hammer_big");
+        MinHitSeverity(HitSeverity_Heavy);
+        MaxHitSeverity(HitSeverity_Heavy);
+        HorizontalAttackDamageMul(3.0);
+        TwoHanded(true);
+        DestroySound("break_wooden_weapon_00.wav");
+        AiHitSound("rebar_goon");
+        use HitEffects_Default();
+        use PickupSounds_Default();
+        DamageSize(15.0);
+        StatsType(StatsType_Blunt);
+        FF_EffectName("Hit_Stick2HeavyBlunt");
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Reparable(true);
+        Color(Color_White);
+        AchType(AchType_BigHammer);
+        CraftingSlots(2);
+        RestrictionFlags(0);
+        RagdollBehaviorPrefix("Stick2HeavyBlunt");
+        HandInertiaFactor(1.8);
+        HandInertiaRotFactor([0.5, 90.0, 4.0]);
+        Price(3894);
+        GenType(GenType_MeleeWeapon);
+        OwnerType(OwnerType_AI);
+        //CanBeUsedByPlayer(true);
+        HitBlastRange(2.4);
+        TransformInto("zzz_Melee_AxeBigBGenN");
+		GameVersion(29);
+    }
+
+	////////////
+
+	Item("ZZZZ_Bullet_Arrow_HR", CategoryType_Ammo)
+    {
+        Name("&ZZZZ_Bullet_Arrow_HR_N&");
+        Description("&ZZZZ_Bullet_Arrow_HR_D&");
+        ItemType(ItemType_Bullet);
+        AmmoType(AmmoType_Arrow);
+        BulletVis(BulletVis_Arrow);
+        MaxAmmoCount(60);
+        Color(Color_White);
+        HudIcon("ammo_arrow");
+        Mesh("weapon_arrow_a.msh");
+        Skin("dark_magic");
+		GameVersion(34);
+    }
+	
+	Item("HR_Ammo_Arrow_Single", CategoryType_Ammo)
+    {
+        Name("&zzz_Craftplan_Arrow_N&");
+		ItemType(ItemType_Ammo);
+        Visibility(true);
+        BulletId("ZZZZ_Bullet_Arrow_HR");
+        AmmoCount(1);
+        MaxStackCount(99);
+        Price(500);
+        Mesh("weapon_arrow_a.msh");
+        Skin("dark_magic");
+        HudIcon("ammo_arrow");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+		GameVersion(42);
+    }
+	
+	Item("HR_Ammo_Arrow_Small", CategoryType_Ammo)
+    {
+        Name("&zzz_Craftplan_Arrow_N&");
+		ItemType(ItemType_Ammo);
+        Visibility(true);
+        BulletId("ZZZZ_Bullet_Arrow_HR");
+        AmmoCount(3);
+        MaxStackCount(99);
+        Price(500);
+        Mesh("arrow_bundle_small.msh");
+        Skin("dark_magic");
+        HudIcon("ammo_arrow");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+		GameVersion(34);
+    }
+	
+	Item("HR_Ammo_Arrow_Large", CategoryType_Ammo)
+    {
+        Name("&zzz_Craftplan_Arrow_N&");
+		ItemType(ItemType_Ammo);
+        Visibility(true);
+        BulletId("ZZZZ_Bullet_Arrow_HR");
+        AmmoCount(7);
+        MaxStackCount(99);
+        Price(500);
+        Mesh("arrow_bundle_big.msh");
+        Skin("dark_magic");
+        HudIcon("ammo_arrow");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+		GameVersion(34);
     }
     
     DamageAndForceSpreadCurve(Color_White, "wpn_melee_damage_spread_white");

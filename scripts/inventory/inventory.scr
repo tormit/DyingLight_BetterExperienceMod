@@ -7527,7 +7527,7 @@ sub main()
         DamageRange(25.0);
         PhysicsDamageMul(0.0);
         FF_EffectName("Throw_Knife");
-        DamageDuration(14.0);
+        DamageDuration(14.0); 
         DamagerTakesNoDamage(true);
         ThrowImpulseLook(13.0);
         ThrowImpulseUp(2.0);
