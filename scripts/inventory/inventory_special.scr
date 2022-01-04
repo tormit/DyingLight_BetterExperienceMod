@@ -1918,7 +1918,7 @@ sub main()
         LegsCutProb(0.0);
         ThrowImpulseLook(10.0);
         ThrowImpulseUp(2.0);
-        ExplodeDelay(15.0); // burn duration
+        ExplodeDelay(60.0); // burn duration
         ThrowBeginSound("");
         ThrowEndSound("");
         StatsType(StatsType_Explosive);
@@ -1963,7 +1963,7 @@ sub main()
         LegsCutProb(0.0);
         ThrowImpulseLook(10.0);
         ThrowImpulseUp(2.0);
-        ExplodeDelay(25.0); // burn duration
+        ExplodeDelay(90.0); // burn duration
         ThrowBeginSound("");
         ThrowEndSound("");
         StatsType(StatsType_Explosive);
