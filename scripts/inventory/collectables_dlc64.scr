@@ -84,6 +84,7 @@ sub main()
     }
 	
 	//craftplan for pistol's bullet
+  // "Silver bullets"
 	Item("Craftplan_Bullet_Pistol_VanCrane", CategoryType_Collectable)
     {
         Name("&Craftplan_Bullet_Pistol_VanCrane_N&");
@@ -97,7 +98,7 @@ sub main()
 		RequiredItem("Craft_ToxicPlant", 1);	
 		RequiredItem("Craft_Shroom", 1);
         Color(Color_Blue);
-        CraftedItem("Bullet_Pistol_VanCrane", 1, 5);
+        CraftedItem("Bullet_Pistol_VanCrane", 1, 25);
         CraftplanType("Collectables_DLC64");
         UniqueSaveID(10006);
 		OwnedAtStart();

@@ -128,6 +128,7 @@ sub main()
     }
 
     ////////////////////////////////PISTOL////////////////////////////////
+    // V-40 Suspender
 	Item("Firearm_Pistol_Astronaut", CategoryType_Firearm)
     {
         Name("&Firearm_Pistol_Astronaut_N&");
@@ -154,7 +155,7 @@ sub main()
         ShotSound("astro_pistol_shot_XX.wav");
         BaseSoundPrefix("glock");
         DefaultBulletId("Bullet_Pistol");
-        AmmoCount(5);
+        AmmoCount(2); // Hack to make launcher effect as second shot?
 		NotInheritBaseAmmoCount();
         ReloadTime(1.5);
         EmptySound("astro_pistol_empty_00.wav");
