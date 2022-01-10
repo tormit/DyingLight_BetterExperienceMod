@@ -204,6 +204,7 @@ sub main()
         ShootRecoilTime(0.16);
     }
 
+    // "Silver bullets" ammo
 	Item("Bullet_Pistol_VanCrane", CategoryType_Ammo)
     {
         Mesh("loot_ok_ammo_short.msh");
@@ -211,10 +212,11 @@ sub main()
         ItemType(ItemType_Bullet);
         AmmoType(AmmoType_Pistol);
 		Color(Color_Blue);
-        MaxAmmoCount(20);
+        MaxAmmoCount(200);
         GameVersion(45);
     }
-	
+
+    // "Silver bullets" ammo
 	Item("Bullet_Pistol_VanCrane_Tricky", CategoryType_Ammo)
     {
         Mesh("loot_ok_ammo_short.msh");
@@ -222,7 +224,7 @@ sub main()
         ItemType(ItemType_Bullet);
         AmmoType(AmmoType_Pistol);
 		Color(Color_Blue);
-        MaxAmmoCount(20);
+        MaxAmmoCount(200);
         GameVersion(45);
 		BulletVis(BulletVis_RifleElectricity);
         Elemental(Elemental_ShockElectricity, 101);
