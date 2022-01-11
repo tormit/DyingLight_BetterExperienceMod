@@ -2018,7 +2018,7 @@ sub main()
         RequiredItem("Craft_Sugar", 1);
         RequiredItem("Craft_Bleach", 1);
         Color(Color_Green);
-        CraftedItem("Throwable_ZaidFlare", 1, 2);
+        CraftedItem("Throwable_ZaidFlare", 1, 5);
         CraftplanType("Throwable");
         UniqueSaveID(104);
         HudIcon("blueprint_b");
