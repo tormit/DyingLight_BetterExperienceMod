@@ -589,7 +589,7 @@ sub main()
         ItemType(ItemType_Bullet);
         AmmoType(AmmoType_Arrow);
         BulletVis(BulletVis_Arrow);
-        MaxAmmoCount(60);
+        MaxAmmoCount(200);
         Color(Color_White);
         HudIcon("ammo_arrow");
         Mesh("weapon_arrow_a.msh");
@@ -642,7 +642,7 @@ sub main()
         AmmoType(AmmoType_Arrow);
         BulletVis(BulletVis_ArrowExploding);
         Elemental(Elemental_Explosive, 2);
-        MaxAmmoCount(60);
+        MaxAmmoCount(200);
         Color(Color_Blue);
         HudIcon("ammo_arrow_explosive");
         Mesh("weapon_arrow_b.msh");

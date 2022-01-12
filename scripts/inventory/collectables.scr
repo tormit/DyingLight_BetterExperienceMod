@@ -2068,10 +2068,10 @@ sub main()
         Price(2000);
         Mesh("blueprint.msh");
         Skin("default");
-        RequiredItem("Craft_MetalScrap", 1);
-        RequiredItem("Craft_Nails", 1);
+        RequiredItem("Craft_MetalScrap", 2);
+        RequiredItem("Craft_Nails", 2);
         Color(Color_Green);
-        CraftedItem("ZZZZ_Ammo_Arrow", 5, 10);
+        CraftedItem("ZZZZ_Ammo_Arrow", 15, 20);
         CraftplanType("Weapon");
         UniqueSaveID(106);
         HudIcon("blueprint_b");
@@ -2119,10 +2119,10 @@ sub main()
         Price(5000);
         Mesh("blueprint.msh");
         Skin("default");
-        RequiredItem("Craft_MetalScrap", 1);
-        RequiredItem("Craft_Bleach", 1);
+        RequiredItem("Craft_MetalScrap", 2);
+        RequiredItem("Craft_Bleach", 2);
         Color(Color_Blue);
-        CraftedItem("ZZZZ_Ammo_Arrow_Explode", 5, 8);
+        CraftedItem("ZZZZ_Ammo_Arrow_Explode", 15, 20);
         CraftplanType("Weapon");
         UniqueSaveID(109);
         HudIcon("blueprint_b");
