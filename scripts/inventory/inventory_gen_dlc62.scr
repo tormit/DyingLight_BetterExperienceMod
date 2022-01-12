@@ -155,7 +155,7 @@ sub main()
         ShotSound("astro_pistol_shot_XX.wav");
         BaseSoundPrefix("glock");
         DefaultBulletId("Bullet_Pistol");
-        AmmoCount(2); // Hack to make launcher effect as second shot?
+        AmmoCount(2); // Hack to make launch and "freeze" effect as second shot
 		NotInheritBaseAmmoCount();
         ReloadTime(1.5);
         EmptySound("astro_pistol_empty_00.wav");

@@ -117,7 +117,7 @@ sub main()
         AmmoType(AmmoType_Pistol);
         DamageType(DamageType_Blast);
         SpawnThrowableOnHit("Throwable_Freeze_Effect");
-        MaxAmmoCount(90);
+        MaxAmmoCount(250);
     }
 
     Item("Throwable_Freeze_Effect", CategoryType_Throwable)

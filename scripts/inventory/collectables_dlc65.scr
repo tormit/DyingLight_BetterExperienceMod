@@ -41,7 +41,7 @@ sub main()
         RequiredItem("Craft_Shroom", 5);
         RequiredItem("Craft_TinCan", 3);
         Color(Color_Blue);
-        CraftedItem("Bullet_Grenade_Launcher_Freeze", 1, 6);
+        CraftedItem("Bullet_Grenade_Launcher_Freeze", 1, 25);
         CraftplanType("Collectables_DLC65");
         UniqueSaveID(10008);
 		OwnedAtStart();
