@@ -347,6 +347,7 @@ sub main()
         HudIcon("blueprint_b");
     }
 
+    // Fastball Special
     Item("Craftplan_BlastMelee", CategoryType_Collectable)
     {
         Name("&Craftplan_BlastMelee_N&");
@@ -356,12 +357,12 @@ sub main()
         Mesh("blueprint.msh");
         Skin("default");
         BaseItem("Melee_", "", "");
-        RequiredItem("Craft_MetalScrap", 1);
-        RequiredItem("Craft_Sugar", 1);
-        RequiredItem("Craft_Bleach", 1);
+        RequiredItem("Craft_MetalScrap", 10);
+        RequiredItem("Craft_Sugar", 3);
+        RequiredItem("Craft_Bleach", 3);
         NamePrefix("&ModifiedItemName&");
-        Elemental(Elemental_ImpactElectricity, 1);
-        Color(Color_Green);
+        Elemental(Elemental_ImpactElectricity, 3);
+        Color(Color_Orange);
         CraftplanType("Weapon");
         UniqueSaveID(16);
         HudIcon("blueprint_b");
@@ -1733,7 +1734,7 @@ sub main()
         RequiredItem("Craft_Electronics", 5);
         NamePrefix("&ModifiedItemName&");
         Elemental(Elemental_ImpactElectricity, 3);
-        Elemental(Elemental_Burning, 2);
+        Elemental(Elemental_ShockElectricity, 2);
         Color(Color_Orange);
         CraftplanType("Weapon");
         UniqueSaveID(75);
@@ -1772,6 +1773,7 @@ sub main()
         HudIcon("blueprint_b");
     }
 
+    // Strobe Knight
     Item("Craftplan_LightingRod", CategoryType_Collectable)
     {
         Name("&Craftplan_LightingRod_N&");
@@ -1790,8 +1792,8 @@ sub main()
         RequiredItem("Craft_Batteries", 2);
         RequiredItem("Craft_Electronics", 1);
         NamePrefix("&ModifiedItemName&");
-        Elemental(Elemental_Bleeding, 2);
-        Elemental(Elemental_ShockElectricity, 2);
+        Elemental(Elemental_Bleeding, 3);
+        Elemental(Elemental_ImpactElectricity, 2);
         Color(Color_Orange);
         CraftplanType("Weapon");
         UniqueSaveID(84);
