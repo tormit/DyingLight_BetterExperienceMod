@@ -179,12 +179,12 @@ sub main()
         Price(800);
         Mesh("blueprint.msh");
         Skin("default");
-        RequiredItem("Craft_Sugar", 2);
-        RequiredItem("Craft_Bleach", 2);
-        RequiredItem("Craft_TinCan", 2);
+        RequiredItem("Craft_Sugar", 1);
+        RequiredItem("Craft_Bleach", 1);
+        RequiredItem("Craft_TinCan", 1);
         Elemental(Elemental_Explosive, 1);
         Color(Color_Green);
-        CraftedItem("Throwable_ExplosiveGrenade", 5, 10);
+        CraftedItem("Throwable_ExplosiveGrenade", 5, 15);
         CraftplanType("Throwable");
         UniqueSaveID(7);
         HudIcon("blueprint_b");
@@ -1984,7 +1984,7 @@ sub main()
         RequiredItem("Craft_TinCan", 1);
         Elemental(Elemental_Bleeding, 4);
         Color(Color_Green);
-        CraftedItem("Throwable_KurtBomb", 2, 5);
+        CraftedItem("Throwable_KurtBomb", 2, 15);
         CraftplanType("Throwable");
         UniqueSaveID(102);
         HudIcon("blueprint_b");

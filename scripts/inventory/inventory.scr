@@ -7550,8 +7550,8 @@ sub main()
         AnimPrefix("Grenade");
         PhysicsScript("single_dropped_inventory.phx");
         HudIcon("weapon_frag_grenade");
-        Damage(1700.0);
-        DamageToPhysicsObjects(350.0);
+        Damage(1900.0);
+        DamageToPhysicsObjects(450.0);
         DamageRange(7.0);
         PhysicsDamageMul(1.0);
         HeadCutProb(1.0);
@@ -7585,11 +7585,11 @@ sub main()
         PhysicsScript("single_dropped_inventory.phx");
         HudIcon("weapon_throw_decoy");
         Condition(1);
-        Damage(1700.0);
-        DamageToPhysicsObjects(300.0);
+        Damage(2100.0);
+        DamageToPhysicsObjects(500.0);
         CriticalProb(0.0);
         CriticalDamage(0.0);
-        DamageRange(5.0);
+        DamageRange(8.0);
         PhysicsDamageMul(1.0);
         HeadCutProb(1.0);
         ArmsCutProb(1.0);
